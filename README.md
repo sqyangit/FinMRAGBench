@@ -218,6 +218,10 @@ If you use this code or benchmark, please cite our paper:
 }
 ```
 
+## Contact
+
+For questions about the benchmark, code, or data, please contact Shouqing Yang at [sqyang@zju.edu.cn](mailto:sqyang@zju.edu.cn).
+
 ## Acknowledgments and license
 
 The code builds on [ViDoRAG](https://github.com/Alibaba-NLP/ViDoRAG), ColPali/ColQwen2, VisRAG-Ret, LlamaIndex, DePlot, and Pix2Struct. Third-party copyright and license headers are retained.
