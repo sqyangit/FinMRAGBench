@@ -25,6 +25,7 @@ tmp/
 *.log
 *.node
 *.jsonl
+/FinMRAGBench_data_887.zip
 
 # OS/editor files
 .DS_Store

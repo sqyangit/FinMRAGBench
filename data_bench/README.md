@@ -99,5 +99,5 @@ The paper page provides the official BibTeX entry:
 ## License
 
 The benchmark annotations are released under the repository's
-[Apache License 2.0](https://github.com/sqyangit/FinMRAGBench/blob/main/LICENSE). The annotation archive includes a copy of the
-license. Original annual reports and model weights are distributed separately.
+[Apache License 2.0](../LICENSE). Original annual reports and model weights are
+distributed separately.

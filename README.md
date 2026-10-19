@@ -37,7 +37,7 @@ The 887 questions reference 1,357 unique evidence pages from 460 documents. Of t
 
 See [data_bench/README.md](data_bench/README.md) for fields, answer formats, and loading examples. Sample IDs are unique within each task file, so use `(task, id)` when combining tasks. The inference entry point maps the fact-verification filename to the internal task name `fact_verify`.
 
-The benchmark annotations are available in `data_bench/` and `FinMRAGBench_data_887.zip`. We will release the annual-report corpus resources and a source manifest soon. The manifest will list the industries, companies, and annual-report years used in the corpus, with access instructions provided in this repository.
+The benchmark annotations are available in `data_bench/`. We will release the annual-report corpus resources and a source manifest soon. The manifest will list the industries, companies, and annual-report years used in the corpus, with access instructions provided in this repository.
 
 When preparing page images, preserve the original page numbering and filenames to match the evidence annotations. Trained model weights and training trajectories are not included in this release.
 
