@@ -1,0 +1,21 @@
+FinMRAGBench
+
+This repository includes adapted third-party evaluation code:
+
+- evaluation/table_utils/deplot/metrics.py
+  Copyright 2024 The Google Research Authors.
+  Licensed under the Apache License, Version 2.0.
+  Adapted for financial value normalization and empty-prediction handling.
+
+- evaluation/table_utils/pix2struct/metrics.py
+- evaluation/table_utils/pix2struct/__init__.py
+  Copyright 2024 The pix2struct Authors.
+  Licensed under the Apache License, Version 2.0.
+
+The corresponding source files retain their copyright and license headers.
+The Apache License, Version 2.0 is included in LICENSE.
+
+The retrieval and baseline implementations build on ViDoRAG
+(https://github.com/Alibaba-NLP/ViDoRAG). Model backends use ColPali/ColQwen2,
+VisRAG-Ret, LlamaIndex, and other dependencies listed in requirements.txt.
+External dependencies and model weights retain their respective licenses.

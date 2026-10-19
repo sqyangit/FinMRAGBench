@@ -1,0 +1,2192 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "question": "For fiscal year 2023, what is the combined total of depreciation and amortization expenses for McDonald's Corporation and Starbucks Corporation?",
+            "answer": "$1744.3 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Among McDonald's Corporation, Starbucks Corporation, and Yum! Brands, Which company had the lowest operating income in fiscal year 2022?",
+            "answer": "Yum! Brands",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg",
+                "YUM_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Rank McDonald's Corporation, Starbucks Corporation, and Yum! Brands by their basic earnings per share in fiscal year 2023.",
+            "answer": "McDonald's Corporation, Yum! Brands, Starbucks Corporation",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg",
+                "YUM_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What was the percentage increase in net income for Starbucks Corporation from fiscal year 2021 to 2023?",
+            "answer": "-1.78%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "SBUX_10K_2023_45.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What was the net income in 2023 of the company with the highest total revenue among McDonald’s, Starbucks, and Yum! Brands?",
+            "answer": "$8,468.8 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg",
+                "YUM_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Among McDonald’s, Starbucks, and Yum! Brands, how much higher was the 2023 total revenue of the leading company compared to the second highest?",
+            "answer": "$10,481.9 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg",
+                "YUM_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Among McDonald's, Starbucks, and Yum! Brands, which company reported the highest net income in 2023, and what is the total revenues of that company in 2021?",
+            "answer": "McDonald's, $23,222.9",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_38.jpg",
+                "SBUX_10K_2023_45.jpg",
+                "YUM_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Between fiscal years 2020 and 2023, in which year did McDonald's achieve the highest revenue from franchised restaurants, and what was the corresponding operating income that year?",
+            "answer": "2023, $11,646.7 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_38.jpg",
+                "MCD_10K_2021_38.jpg",
+                "MCD_10K_2022_36.jpg",
+                "MCD_10K_2023_38.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "What is the percentage increase in McDonald’s net income from fiscal year 2020 to fiscal year 2023? Please express your answer as a percentage rounded to two decimal places.",
+            "answer": "79.02%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_38.jpg",
+                "MCD_10K_2023_38.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Rank McDonald's fiscal years 2020 to 2023 in order of highest to lowest total revenues.",
+            "answer": "2023, 2021, 2022, 2020",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2020_38.jpg",
+                "MCD_10K_2021_38.jpg",
+                "MCD_10K_2022_36.jpg",
+                "MCD_10K_2023_38.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Considering data from McDonald's fiscal years 2020 to 2023, which year had the highest total operating costs and expenses, and by how much did the net income in that year exceed the net income in 2019?",
+            "answer": "2023, $2443.4 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_38.jpg",
+                "MCD_10K_2021_38.jpg",
+                "MCD_10K_2022_36.jpg",
+                "MCD_10K_2023_38.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Compare the comprehensive income in 2023 among McDonald's, Starbucks, and Yum! Brands, and identify which company reported the highest value.",
+            "answer": "McDonald's",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2023_39.jpg",
+                "SBUX_10K_2023_46.jpg",
+                "YUM_10K_2023_57.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "What was the comprehensive income in 2021 of the company with the lowest net income among McDonald’s, Starbucks, and Yum! Brands?",
+            "answer": "$1661 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_39.jpg",
+                "SBUX_10K_2023_46.jpg",
+                "YUM_10K_2023_57.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "What was the smallest value of Other comprehensive income (loss), net of tax in 2023 between McDonald’s and Yum! Brands?",
+            "answer": "$-44 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "MCD_10K_2023_39.jpg",
+                "YUM_10K_2023_57.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Which company, among McDonald's Corporation, Starbucks Corporation, and Yum! Brands, had the highest total assets for fiscal year 2023, and what was the difference in total assets between the company with the highest and the one with the lowest assets?",
+            "answer": "McDonald's Corporation, $49915.8 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "MCD_10K_2023_40.jpg",
+                "SBUX_10K_2023_47.jpg",
+                "YUM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "What is the total increase in 'Total Current Assets' from 2022 to 2023 for McDonald's Corporation and Starbucks Corporation combined, based on their respective balance sheets?",
+            "answer": "$2846.9 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2023_40.jpg",
+                "SBUX_10K_2023_47.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Rank McDonald’s Corporation, Starbucks Corporation, and Yum! Brands by the proportion of ‘Cash and Equivalents’ to ‘Total Current Assets’ reported in their respective 2023 financial statements, from highest to lowest.",
+            "answer": "Starbucks Corporation, Yum! Brands, McDonald's Corporation,",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2023_40.jpg",
+                "SBUX_10K_2023_47.jpg",
+                "YUM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "In McDonald’s 2022 balance sheet, what is the sum of the second-largest and the third-largest components of Total Current Assets?",
+            "answer": "$2,788.4 million",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Which company, among McDonald's Corporation, Starbucks Corporation, and Yum Brands, had the smallest increase in total assets from fiscal year 2022 to 2023, and what was the amount of this increase?",
+            "answer": "Starbucks Corporation, 5.24%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_40.jpg",
+                "SBUX_10K_2023_47.jpg",
+                "YUM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "For McDonald's Corporation from 2020 to 2023, determine the year with the highest total assets and calculate the percentage increase from the previous highest year's total assets.",
+            "answer": "2023, 11.32%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_40.jpg",
+                "MCD_10K_2021_40.jpg",
+                "MCD_10K_2022_38.jpg",
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "What is the overall trend in McDonald’s Corporation’s retained earnings from 2020 to 2023 based on the year-over-year changes?",
+            "answer": "increased",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_40.jpg",
+                "MCD_10K_2021_40.jpg",
+                "MCD_10K_2022_38.jpg",
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Which fiscal year, between 2020 and 2023, does McDonald's Corporation show the greatest increase in retained earnings?",
+            "answer": "2022",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_40.jpg",
+                "MCD_10K_2021_40.jpg",
+                "MCD_10K_2022_38.jpg",
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Throughout the fiscal years 2020 to 2023, what is the trend in McDonald's Corporation's accounts payable, and identify any year with a significant decrease?",
+            "answer": "2022",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_40.jpg",
+                "MCD_10K_2021_40.jpg",
+                "MCD_10K_2022_38.jpg",
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "How much did McDonald's Corporation's long-term debt change from fiscal year 2020 to fiscal year 2023?",
+            "answer": "1,956.1",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_40.jpg",
+                "MCD_10K_2023_40.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Rank McDonald's Corporation, Starbucks Corporation, and Yum! Brands by the net increase (decrease) in cash and cash equivalents for fiscal year 2023, starting with the highest to lowest.",
+            "answer": "McDonald's Corporation, Starbucks Corporation, Yum! Brands",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2023_41.jpg",
+                "SBUX_10K_2023_48.jpg",
+                "YUM_10K_2023_58.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Calculate the three-year average cash used for financing activities for McDonald's Corporation from 2021 to 2023.",
+            "answer": "-5,516.5",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2023_41.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Between the fiscal years 2023 and 2021, which company had the most consistent cash position at the end of the fiscal year, reflected by the smallest variance in cash and cash equivalents at year-end?",
+            "answer": "Yum! Brands",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_41.jpg",
+                "SBUX_10K_2023_48.jpg",
+                "YUM_10K_2023_58.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "For McDonald’s Corporation between 2020 and 2023, what was the amount of cash provided by operations in the year with the highest net income?",
+            "answer": "2023, $9,611.9",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_41.jpg",
+                "MCD_10K_2021_41.jpg",
+                "MCD_10K_2022_39.jpg",
+                "MCD_10K_2023_41.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Comparing the fiscal years 2022 and 2023, which company among McDonald's, Starbucks, and Yum! Brands showed the largest absolute increase in Total Shareholders' Equity, and by how much did it increase?",
+            "answer": "McDonald's, $1296.7 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2023_42.jpg",
+                "SBUX_10K_2023_49.jpg",
+                "YUM_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "For the fiscal year ending in 2023, compare the treasury stock purchases of McDonald’s Corporation and Starbucks Corporation, and determine what percentage Starbucks’ purchases were relative to McDonald’s.",
+            "answer": "32.35%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "MCD_10K_2023_42.jpg",
+                "SBUX_10K_2023_49.jpg"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Calculate the total 'Common Stock Cash Dividends' declared by McDonald's Corporation from fiscal year 2021 to 2023, and identify if this amount exceeds Starbucks Corporation's 'Cash Dividends Declared' for the same period.",
+            "answer": "Yes",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2023_42.jpg",
+                "SBUX_10K_2023_49.jpg"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "Rank the years 2020 through 2023 based on the lowest to highest dividends paid by McDonald's Corporation, as indicated by 'Common stock cash dividends'.",
+            "answer": "2020, 2021, 2022, 2023",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "MCD_10K_2020_42.jpg",
+                "MCD_10K_2021_42.jpg",
+                "MCD_10K_2022_40.jpg",
+                "MCD_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Calculate the average number of shares of common stock outstanding for McDonald's Corporation over the fiscal years 2020 to 2023.",
+            "answer": "$736.05 million shares",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_42.jpg",
+                "MCD_10K_2021_42.jpg",
+                "MCD_10K_2022_40.jpg",
+                "MCD_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "In which year did McDonald's Corporation have the greatest amount of other comprehensive income (loss), net of tax, and what was the amount?",
+            "answer": "2022, $87.1 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_42.jpg",
+                "MCD_10K_2021_42.jpg",
+                "MCD_10K_2022_40.jpg",
+                "MCD_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "By how much did the share-based compensation change from 2020 to 2023 for McDonald's Corporation?",
+            "answer": "82.8",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MCD_10K_2020_42.jpg",
+                "MCD_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "What was the cumulative increase in net income for McDonald's Corporation from fiscal year 2020 to fiscal year 2023, and in which year was the largest single annual increase observed?",
+            "answer": "3738.3, 2023",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCD_10K_2020_42.jpg",
+                "MCD_10K_2021_42.jpg",
+                "MCD_10K_2022_40.jpg",
+                "MCD_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "What is the percentage growth in total assets for Tesla from fiscal year 2020 to fiscal year 2023?",
+            "answer": "104.45%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "TSLA_10K_2020_54.jpg",
+                "TSLA_10K_2023_50.jpg"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "What was Tesla’s current ratio in the fiscal year when it reported the highest total liabilities between 2020 and 2023? (The current ratio is calculated as current assets divided by current liabilities.)",
+            "answer": "1.73",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_54.jpg",
+                "TSLA_10K_2021_50.jpg",
+                "TSLA_10K_2022_48.jpg",
+                "TSLA_10K_2023_50.jpg"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "In Tesla's balance sheet, what was the trend in cash and cash equivalents from 2019 to 2023, and in which year was the lowest balance observed?",
+            "answer": "decreased then increased, 2022",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_54.jpg",
+                "TSLA_10K_2021_50.jpg",
+                "TSLA_10K_2022_48.jpg",
+                "TSLA_10K_2023_50.jpg"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "Rank the fiscal years from 2020 to 2023 for Tesla based on the total non-current liabilities, from lowest to highest.",
+            "answer": "2022, 2021, 2020, 2023",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "TSLA_10K_2020_54.jpg",
+                "TSLA_10K_2021_50.jpg",
+                "TSLA_10K_2022_48.jpg",
+                "TSLA_10K_2023_50.jpg"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "What was the combined total of 'accrued liabilities and other' and 'deferred revenue, net of current portion' for Tesla in the year 2022?",
+            "answer": "9,946 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2022_48.jpg"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "In which fiscal year did Tesla incur the highest interest expense between 2020 and 2023, and what was that expense?",
+            "answer": "2020, 748",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_55.jpg",
+                "TSLA_10K_2021_51.jpg",
+                "TSLA_10K_2022_49.jpg",
+                "TSLA_10K_2023_51.jpg"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Calculate the compound annual growth rate (CAGR) of Tesla's automotive sales from fiscal year 2019 to fiscal year 2023.",
+            "answer": "40.83%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "TSLA_10K_2020_55.jpg",
+                "TSLA_10K_2023_51.jpg"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "What is the total amount of net income attributable to common stockholders for Tesla from fiscal years 2020 through 2022?",
+            "answer": "18,796 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_55.jpg",
+                "TSLA_10K_2021_51.jpg",
+                "TSLA_10K_2022_49.jpg"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "Compare the accumulated deficit in 2020 and 2023 for Tesla, and calculate the percentage change over these years.",
+            "answer": "616.3%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2020_57.jpg",
+                "TSLA_10K_2023_53.jpg"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "For Tesla, what was the percentage change in net income from fiscal year 2020 to 2023?",
+            "answer": "1980.4%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_57.jpg",
+                "TSLA_10K_2023_53.jpg"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "Between 2018 and 2023, in which year did Tesla have the highest proceeds from issuances of common stock in public offerings, net of issuance costs?",
+            "answer": "2020, $12,269 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "TSLA_10K_2020_57.jpg",
+                "TSLA_10K_2023_53.jpg"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "Calculate the total amount of cash provided by operating activities from 2020 to 2023 for Tesla, and identify in which year the highest amount was reported.",
+            "answer": "2022, $14724 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2020_58.jpg",
+                "TSLA_10K_2021_54.jpg",
+                "TSLA_10K_2022_52.jpg",
+                "TSLA_10K_2023_54.jpg"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "Between 2020 and 2023, in which fiscal year did Tesla, report the largest acquisition of property and equipment included in liabilities?",
+            "answer": "2023, $2272 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2020_58.jpg",
+                "TSLA_10K_2021_54.jpg",
+                "TSLA_10K_2022_52.jpg",
+                "TSLA_10K_2023_54.jpg"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "In which fiscal year between 2019 and 2023 did Tesla achieve net cash provided by operating activities exceeding 10,000 million for the first time, and what was the exact amount in that year?",
+            "answer": "2021, 11,497",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2021_54.jpg",
+                "TSLA_10K_2023_54.jpg"
+            ]
+        },
+        {
+            "id": 51,
+            "question": "Rank the companies Tesla, Ford, and General Motors based on their total current liabilities as of December 31, 2023, from highest to lowest.",
+            "answer": "Ford, General Motors, Tesla",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "TSLA_10K_2023_50.jpg",
+                "F_10K_2023_114.jpg",
+                "GM_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 52,
+            "question": "Determine which company, Tesla or General Motors, had a greater improvement in working capital (current assets minus current liabilities) from December 31, 2022, to December 31, 2023.",
+            "answer": "General Motors",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_50.jpg",
+                "GM_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 53,
+            "question": "In December 31, 2023, which company reported the highest accumulated other comprehensive income (loss), Tesla, Ford, General Motors?",
+            "answer": "Tesla",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_50.jpg",
+                "F_10K_2023_114.jpg",
+                "GM_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 54,
+            "question": "In fiscal year 2023, which company, Tesla or Ford, had a higher value of Stockholders' Equity, and what is the difference between them?",
+            "answer": "Tesla, $19,836 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_50.jpg",
+                "F_10K_2023_114.jpg"
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Comparing Tesla, Ford, and GM, determine which company had the greatest increase in net income attributable to stockholders from 2022 to 2023 and provide the increase amount for that company.",
+            "answer": "Ford, $6,328 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_51.jpg",
+                "TSLA_10K_2023_52.jpg",
+                "F_10K_2023_113.jpg",
+                "GM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 56,
+            "question": "Considering 2023, rank Ford, Tesla, and General Motors based on their total comprehensive income attributable to stockholders, from highest to lowest.",
+            "answer": "Tesla, General Motors, Ford",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "TSLA_10K_2023_51.jpg",
+                "TSLA_10K_2023_52.jpg",
+                "F_10K_2023_113.jpg",
+                "GM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 57,
+            "question": "Between Tesla, Ford, and General Motors, which company reported the highest net income for the fiscal year 2023, and what was the Gross profit amount in the fiscal year 2021?",
+            "answer": "Tesla, $13,606 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2023_51.jpg",
+                "TSLA_10K_2023_52.jpg",
+                "F_10K_2023_113.jpg",
+                "GM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 58,
+            "question": "Comparing the fiscal years 2021, 2022, and 2023, which company experienced the greatest absolute increase in Total Stockholders' Equity among Tesla, Ford, and General Motors?",
+            "answer": "Tesla",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2023_53.jpg",
+                "F_10K_2023_115.jpg",
+                "GM_10K_2023_62.jpg"
+            ]
+        },
+        {
+            "id": 59,
+            "question": "Among Tesla, Ford, and General Motors, which company had the largest decrease in treasury stock value from fiscal year 2022 to 2023, and what was the total decrease amount across these years?",
+            "answer": "General Motors, $6,533 million.",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_53.jpg",
+                "F_10K_2023_115.jpg",
+                "GM_10K_2023_62.jpg"
+            ]
+        },
+        {
+            "id": 60,
+            "question": "For the fiscal year 2023, which company among Tesla, Ford, and General Motors had the largest increase in cash and cash equivalents and restricted cash at the end of the period compared to 2022?",
+            "answer": "Tesla",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2023_54.jpg",
+                "F_10K_2023_112.jpg",
+                "GM_10K_2023_61.jpg"
+            ]
+        },
+        {
+            "id": 61,
+            "question": "Over the fiscal years 2022 and 2023, which company showed the most significant change in cash equivalents at the end of the period, and what was the dollar change in cash equivalents for that company?",
+            "answer": "Tesla, 265",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "TSLA_10K_2023_54.jpg",
+                "F_10K_2023_112.jpg",
+                "GM_10K_2023_61.jpg"
+            ]
+        },
+        {
+            "id": 62,
+            "question": "In the fiscal year 2021, compare the cash flow from investing activities between Tesla and General Motors, and identify which company had the lower expenditure and by how much.",
+            "answer": "Tesla, 8,487",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSLA_10K_2023_54.jpg",
+                "GM_10K_2023_61.jpg"
+            ]
+        },
+        {
+            "id": 63,
+            "question": "Rank the Ford segments by highest EBIT margin in 2022, listing from highest to lowest.",
+            "answer": "Ford Blue, Ford Pro, Ford Model e",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "F_10K_2023_59.jpg",
+                "F_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 64,
+            "question": "Considering the changes in EBIT due to exchange factors, which Ford segment had the least favorable impact in 2022?",
+            "answer": "Ford Blue",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "F_10K_2023_59.jpg",
+                "F_10K_2023_60.jpg",
+                "F_10K_2023_61.jpg"
+            ]
+        },
+        {
+            "id": 65,
+            "question": "For fiscal years 2021 and 2022, which Ford segment demonstrated the largest absolute increase in EBIT, and by how much did this segment's EBIT change?",
+            "answer": "Ford Blue, 3554",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "F_10K_2023_59.jpg",
+                "F_10K_2023_60.jpg",
+                "F_10K_2023_61.jpg"
+            ]
+        },
+        {
+            "id": 66,
+            "question": "In fiscal year 2025, which region had the highest total revenue for footwear, and what was the percentage increase compared to the same region's total footwear revenue in fiscal year 2024 for Nike?",
+            "answer": "North America, -12.75%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NKE_10K_2024_87.jpg",
+                "NKE_10K_2025_85.jpg"
+            ]
+        },
+        {
+            "id": 67,
+            "question": "What is the percentage change in total Nike revenues from North America between the fiscal years ending May 31, 2023, and May 31, 2025?",
+            "answer": "-9.42%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "NKE_10K_2024_87.jpg",
+                "NKE_10K_2025_85.jpg"
+            ]
+        },
+        {
+            "id": 68,
+            "question": "What is the total revenue change for sales to wholesale customers in Greater China from fiscal year 2023 to 2025 for Nike?",
+            "answer": "-167",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NKE_10K_2024_87.jpg",
+                "NKE_10K_2025_85.jpg"
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Which product line saw the highest percentage increase in contribution to NIKE brand revenue from fiscal 2024 to fiscal 2025, and what was the percentage change?",
+            "answer": "Equipment, 25%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NKE_10K_2024_38.jpg",
+                "NKE_10K_2025_37.jpg"
+            ]
+        },
+        {
+            "id": 70,
+            "question": "Comparing fiscal years 2024 and 2025, which region experienced the largest percentage change in contribution to NIKE brand revenue and what was the percentage change?",
+            "answer": "EMEA, -3.57%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "NKE_10K_2024_38.jpg",
+                "NKE_10K_2025_37.jpg"
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Calculate the percentage change in total revenues excluding currency changes for NIKE's Greater China from fiscal year 2023 to 2025.",
+            "answer": "-9.13%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NKE_10K_2025_43.jpg",
+                "NKE_10K_2024_44.jpg"
+            ]
+        },
+        {
+            "id": 72,
+            "question": "What is the percentage change in Revenues from Apparel for NIKE in Greater China from fiscal year 2023 to fiscal year 2024?",
+            "answer": "9.72%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "NKE_10K_2024_44.jpg"
+            ]
+        },
+        {
+            "id": 73,
+            "question": "What was the cumulative change in repurchase of Class B Common Stock amounts from fiscal year 2021 to 2025 for Nike?",
+            "answer": "-162",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "NKE_10K_2023_62.jpg",
+                "NKE_10K_2024_64.jpg",
+                "NKE_10K_2025_63.jpg"
+            ]
+        },
+        {
+            "id": 74,
+            "question": "What is the total change in 'Common Stock Class A Shares' from May 31, 2020 to May 31, 2025 for Nike, Inc?",
+            "answer": "-25",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "NKE_10K_2023_62.jpg",
+                "NKE_10K_2024_64.jpg",
+                "NKE_10K_2025_63.jpg"
+            ]
+        },
+        {
+            "id": 75,
+            "question": "What is the total percentage of employees located in Canada and China Mainland combined in 2024 for Lululemon?",
+            "answer": "37%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "LULU_10K_2025_10.jpg"
+            ]
+        },
+        {
+            "id": 76,
+            "question": "Between 2023 and 2025, which region exhibited the highest employee percentage in both years combined at Lululemon?",
+            "answer": "United States",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "LULU_10K_2025_10.jpg"
+            ]
+        },
+        {
+            "id": 77,
+            "question": "Which index recorded the lowest cumulative total return on April 1, 2023, among Ralph Lauren Corporation, S&P 500, and S&P 1500 Apparel, Accessories & Luxury Goods?",
+            "answer": "S&P 1500 Apparel, Accessories & Luxury Goods Index",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "RL_10K_2025_45.jpg"
+            ]
+        },
+        {
+            "id": 78,
+            "question": "Compare the cumulative total stockholder return of LULU with the S&P 500 Index and the S&P 500 Apparel, Accessories & Luxury Goods Index as of February 2, 2025, and identify the index with the highest return.",
+            "answer": "S&P 500 Index",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LULU_10K_2025_26.jpg"
+            ]
+        },
+        {
+            "id": 79,
+            "question": "Among Intel, AMD, and Qualcomm, what is the operating income of the company that has the highest research and development expenses in 2023 in millions?",
+            "answer": "93",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "QCOM_10K_2023_58.jpg",
+                "AMD_10K_2023_57.jpg",
+                "INTC_10K_2023_39.jpg"
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Among Intel, AMD, and NVIDIA, what are the R&D Expenses of the company that has the highest net revenue in FY2022 in millions?",
+            "answer": "17,528",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "AMD_10K_2022_54.jpg",
+                "NVDA_10K_2022_47.jpg",
+                "INTC_10K_2022_78.jpg"
+            ]
+        },
+        {
+            "id": 81,
+            "question": "In 2023, which company had a higher operating income, Exelon or DTE Energy, and what was the difference?",
+            "answer": "Exelon, 1,780",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "EXC_10K_2023_123.jpg",
+                "DTE_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 82,
+            "question": "Which company, Yum! Brands or Starbucks, had a higher net income in fiscal year 2021, and by how much did it exceed the other company's net income?",
+            "answer": "Starbucks, 2,624.3",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "YUM_10K_2021_55.jpg",
+                "SBUX_10K_2021_44.jpg"
+            ]
+        },
+        {
+            "id": 83,
+            "question": "Which company, Exelon or Dominion Energy, had a higher total assets value in 2020, and what was the difference in their total assets?",
+            "answer": "Exelon, 33,412",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "EXC_10K_2020_188.jpg",
+                "D_10K_2020_92.jpg"
+            ]
+        },
+        {
+            "id": 84,
+            "question": "Calculate the total dividends paid by Merck & Co and Pfizer in 2020 and determine which company paid more.",
+            "answer": "Pfizer",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MRK_10K_2020_84.jpg",
+                "PFE_10K_2020_62.jpg"
+            ]
+        },
+        {
+            "id": 85,
+            "question": "Determine the company with the highest capital expenditures in fiscal year 2020 between Dollar General and TJX, and provide the amount.",
+            "answer": "TJX, 1,223.12",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "DG_10K_2020_23.jpg",
+                "TJX_10K_2020_68.jpg"
+            ]
+        },
+        {
+            "id": 86,
+            "question": "In 2024, what was the total interest expense for General Motors, and how does it compare to the previous year?",
+            "answer": "$6,876, $5,596",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "GM_10K_2024_82.jpg"
+            ]
+        },
+        {
+            "id": 87,
+            "question": "Which company, Dominion Energy or Public Service Enterprise Group, had a higher net income in 2022, and what was the difference in their net incomes?",
+            "answer": "Public Service Enterprise Group, 37",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "D_10K_2022_64.jpg",
+                "PEG_10K_2022_66.jpg"
+            ]
+        },
+        {
+            "id": 88,
+            "question": "Compare the dividend payout ratio of Southern Company in 2024 to the dividends declared per share by Consolidated Edison in the same year.",
+            "answer": "71%, $3.32",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "SO_10K_2024_57.jpg",
+                "ED_10K_2024_177.jpg"
+            ]
+        },
+        {
+            "id": 89,
+            "question": "Determine the total comprehensive income for General Motors in 2023 and compare it to Lucid Group's comprehensive loss for the same year.",
+            "answer": "7,781, -2,812",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LCID_10K_2023_93.jpg",
+                "GM_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 90,
+            "question": "What was the percentage change in lululemon athletica's inventories from fiscal year 2022 to 2023, and how does it compare to the percentage change in Levi Strauss & Co.'s inventories over the same period?",
+            "answer": "-8.55%, -8.94%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "LULU_10K_2024_51.jpg",
+                "LEVI_10K_2023_79.jpg"
+            ]
+        },
+        {
+            "id": 91,
+            "question": "In the fiscal year ending January 30, 2022, what was the total amount of PVH Corp's long-term debt, and how does it compare to Crocs, Inc's long-term borrowings for the year ending December 31, 2022?",
+            "answer": "2,317.6, 2,298.03",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "PVH_10K_2022_81.jpg",
+                "CROX_10K_2022_72.jpg"
+            ]
+        },
+        {
+            "id": 92,
+            "question": "Identify the company with the highest provision for credit losses in 2020 between PNC and Citigroup, and specify the amount.",
+            "answer": "Citigroup, 15.92",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "PNC_10K_2020_48.jpg",
+                "C_10K_2020_140.jpg"
+            ]
+        },
+        {
+            "id": 93,
+            "question": "Determine the total cost of sales for Lockheed Martin's Aeronautics segment in 2024 and compare it to General Dynamics' Aerospace segment operating costs in the same year.",
+            "answer": "$26,093 million, $(9,785) million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "GD_10K_2024_80.jpg",
+                "LMT_10K_2024_37.jpg"
+            ]
+        },
+        {
+            "id": 94,
+            "question": "Calculate the percentage change in cash and cash equivalents for PVH Corp. from January 31, 2021, to January 30, 2022, and compare it to the percentage change for Levi Strauss & Co. from November 28, 2021, to November 27, 2022.",
+            "answer": "-24.76%, -46.98%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "PVH_10K_2022_81.jpg",
+                "LEVI_10K_2022_74.jpg"
+            ]
+        },
+        {
+            "id": 95,
+            "question": "In 2021, which company had a higher net income, Valero Energy Corporation or Phillips 66, and what was the difference in their net income values?",
+            "answer": "Phillips 66, 370.00",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "VLO_10K_2021_77.jpg",
+                "PSX_10K_2021_40.jpg"
+            ]
+        },
+        {
+            "id": 96,
+            "question": "Between Constellation Energy Corporation and American Electric Power Company, which had a higher total liabilities in 2022, and what was the difference?",
+            "answer": "American Electric Power Company, 33,764.1",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CEG_10K_2022_95.jpg",
+                "AEP_10K_2022_149.jpg"
+            ]
+        },
+        {
+            "id": 97,
+            "question": "Which company, Vistra Corp. or Exelon Corporation, had a higher total current assets in 2020, and what was the difference in their total current assets?",
+            "answer": "Exelon Corporation, 9,133",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "VST_10K_2020_102.jpg",
+                "EXC_10K_2020_188.jpg"
+            ]
+        },
+        {
+            "id": 98,
+            "question": "In 2021, what was the total revenue from collaborations for Alnylam Pharmaceuticals, and how does it compare to Vertex Pharmaceuticals' other revenues in the same year?",
+            "answer": "180.95, 1.00",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "ALNY_10K_2021_94.jpg",
+                "VRTX_10K_2021_90.jpg"
+            ]
+        },
+        {
+            "id": 99,
+            "question": "Calculate the percentage change in Northrop Grumman's total assets from 2022 to 2023 and compare it to Lockheed Martin's percentage change over the same period.",
+            "answer": "6.37%, -0.80%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "NOC_10K_2023_55.jpg",
+                "LMT_10K_2023_58.jpg"
+            ]
+        },
+        {
+            "id": 100,
+            "question": "Which company, Eli Lilly or Alnylam Pharmaceuticals, had a higher percentage increase in total revenues from 2022 to 2023, and what was the percentage increase for that company?",
+            "answer": "Alnylam Pharmaceuticals, 76.23%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LLY_10K_2023_40.jpg",
+                "ALNY_10K_2023_84.jpg"
+            ]
+        },
+        {
+            "id": 101,
+            "question": "Which company, between Lululemon Athletica in fiscal year 2020 and Deckers Outdoor Corporation in fiscal year 2021, had a higher net income, and what was the difference in their net incomes?",
+            "answer": "Lululemon Athletica, $263.02 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LULU_10K_2021_44.jpg",
+                "DECK_10K_2021_64.jpg"
+            ]
+        },
+        {
+            "id": 102,
+            "question": "What was the percentage change in Lockheed Martin's comprehensive income from 2021 to 2022, and how does it compare to Northrop Grumman's percentage change in net earnings over the same period?",
+            "answer": "-23.76%, -30.11%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "LMT_10K_2022_64.jpg",
+                "NOC_10K_2022_57.jpg"
+            ]
+        },
+        {
+            "id": 103,
+            "question": "Calculate the percentage change in Citigroup's tangible common equity from 2023 to 2024 and compare it to the percentage change in JPMorgan Chase's common stockholders' equity over the same period.",
+            "answer": "2.24%, 8.07%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "C_10K_2024_49.jpg",
+                "JPM_10K_2024_105.jpg"
+            ]
+        },
+        {
+            "id": 104,
+            "question": "Calculate the difference in dividends declared per common share between Dominion Energy and Xcel Energy for the year 2024.",
+            "answer": "0.48",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "D_10K_2024_201.jpg",
+                "XEL_10K_2024_52.jpg"
+            ]
+        },
+        {
+            "id": 105,
+            "question": "Determine the total operating expenses for Chipotle Mexican Grill and Starbucks in 2024 and identify which company had higher operating expenses.",
+            "answer": "9,397.52, 31,068.60, Starbucks",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "CMG_10K_2024_38.jpg",
+                "SBUX_10K_2024_40.jpg"
+            ]
+        },
+        {
+            "id": 106,
+            "question": "In 2022, which company had a higher operating income as a percentage of net sales, Kontoor Brands or Columbia Sportswear, and what were the respective percentages?",
+            "answer": "Kontoor Brands, 13.6%, Columbia Sportswear, 11.3%",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "KTB_10K_2022_29.jpg",
+                "COLM_10K_2022_26.jpg"
+            ]
+        },
+        {
+            "id": 107,
+            "question": "Which company, Regeneron Pharmaceuticals or Zoetis, had a higher net income in 2022, and what was the difference in their net incomes?",
+            "answer": "Regeneron Pharmaceuticals, $2,224.4 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "REGN_10K_2022_109.jpg",
+                "ZTS_10K_2022_58.jpg"
+            ]
+        },
+        {
+            "id": 108,
+            "question": "Comparing Tesla's net income for the year ended December 31, 2022, with REV Group's net income for the fiscal year ended October 31, 2022, which company reported a higher net income, and by how much?",
+            "answer": "Tesla, 12,571.80",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2022_49.jpg",
+                "REVG_10K_2022_61.jpg"
+            ]
+        },
+        {
+            "id": 109,
+            "question": "Rank the companies, Dominion Energy and Xcel Energy, based on their operating revenue for the year 2024.",
+            "answer": "Dominion Energy, Xcel Energy",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "D_10K_2024_201.jpg",
+                "XEL_10K_2024_82.jpg"
+            ]
+        },
+        {
+            "id": 110,
+            "question": "Which company, Oshkosh Corporation or Ford Motor Company, had higher research and development expenses in 2024, and what was the difference in their R&D spending?",
+            "answer": "Ford Motor Company, 7830.9",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "OSK_10K_2024_97.jpg",
+                "F_10K_2024_123.jpg"
+            ]
+        },
+        {
+            "id": 111,
+            "question": "Which company, Chevron or Valero, had a higher net income attributable to its stockholders in 2021, and what was the difference in their net incomes?",
+            "answer": "Chevron, 14,695 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CVX_10K_2021_33.jpg",
+                "VLO_10K_2021_43.jpg"
+            ]
+        },
+        {
+            "id": 112,
+            "question": "Which company had a higher stockholders' equity at the end of fiscal year 2021, Darden Restaurants, or Shake Shack , and what was the difference?",
+            "answer": "Darden Restaurants, 2,403.56",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "DRI_10K_2021_47.jpg",
+                "SHAK_10K_2021_87.jpg"
+            ]
+        },
+        {
+            "id": 113,
+            "question": "Between Levi Strauss & Co. and Nike, which company had a higher net income in 2020, and what was the difference?",
+            "answer": "Nike, 2,666.14",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LEVI_10K_2020_81.jpg",
+                "NKE_10K_2020_61.jpg"
+            ]
+        },
+        {
+            "id": 114,
+            "question": "Calculate the percentage change in retained earnings for Analog Devices from October 28, 2023, to November 2, 2024, and compare it with the percentage change for Microchip Technology Incorporated from March 31, 2023, to March 31, 2024.",
+            "answer": "-1.55%, 17.27%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "ADI_10K_2024_47.jpg",
+                "MCHP_10K_2024_77.jpg"
+            ]
+        },
+        {
+            "id": 115,
+            "question": "What was the total comprehensive income for Entergy Louisiana in 2023, and how does it compare to Vistra Corp's comprehensive income for the same year?",
+            "answer": "Entergy Louisiana $1,269.81 million, Vistra Corp $1,492 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "ETR_10K_2023_385.jpg",
+                "VST_10K_2023_90.jpg"
+            ]
+        },
+        {
+            "id": 116,
+            "question": "Which company had a higher total liabilities in 2024, CAVA Group or McDonald's Corporation, and what was the value for this liability?",
+            "answer": "McDonald's Corporation, $58,979 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CAVA_10K_2024_63.jpg",
+                "MCD_10K_2024_42.jpg"
+            ]
+        },
+        {
+            "id": 117,
+            "question": "In fiscal year 2021, which company had a higher gross margin percentage, KLA Corporation or Broadcom, and what were their respective gross margins?",
+            "answer": "Broadcom, 61%, KLA Corporation, 60%",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "KLAC_10K_2021_45.jpg",
+                "AVGO_10K_2021_54.jpg"
+            ]
+        },
+        {
+            "id": 118,
+            "question": "Calculate the percentage change in Exelon Corporation's short-term borrowings from 2019 to 2020, and compare it to the percentage change in Dominion Energy's short-term debt over the same period.",
+            "answer": "48.25%, 5.42%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "EXC_10K_2020_189.jpg",
+                "D_10K_2020_93.jpg"
+            ]
+        },
+        {
+            "id": 119,
+            "question": "Determine the company with the highest accounts receivable in 2021 between AMD and Microchip Technology, and specify the amount.",
+            "answer": "AMD, 2706",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "AMD_10K_2021_53.jpg",
+                "MCHP_10K_2021_94.jpg"
+            ]
+        },
+        {
+            "id": 120,
+            "question": "In fiscal year 2019, which company had a lower interest expense, Ross Stores or Carvana, and what was the amount?",
+            "answer": "Ross Stores, 27.85",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "ROST_10K_2020_27.jpg",
+                "CVNA_10K_2020_80.jpg"
+            ]
+        },
+        {
+            "id": 121,
+            "question": "Calculate the total net earnings for General Dynamics and Lockheed Martin in 2024, and determine which company had higher net earnings.",
+            "answer": "Lockheed Martin",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "GD_10K_2024_52.jpg",
+                "LMT_10K_2024_56.jpg"
+            ]
+        },
+        {
+            "id": 122,
+            "question": "Calculate the change in NVIDIA's cash and cash equivalents from fiscal year 2019 to 2020, and compare it to the change in Micron's cash and equivalents over the same period.",
+            "answer": "$10,114 million, $472 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "NVDA_10K_2020_43.jpg",
+                "MU_10K_2020_52.jpg"
+            ]
+        },
+        {
+            "id": 123,
+            "question": "Comparing KLA Corporation and Broadcom, which company had a higher net income in fiscal year 2020, and what was the difference in their net incomes?",
+            "answer": "Broadcom, 1,446.22",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "KLAC_10K_2020_65.jpg",
+                "AVGO_10K_2020_60.jpg"
+            ]
+        },
+        {
+            "id": 124,
+            "question": "What was the total comprehensive income for Deckers Outdoor Corporation in fiscal year 2023, and how does it compare to Ralph Lauren Corporation's net income for the same year?",
+            "answer": "502.74, 522.70",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "DECK_10K_2023_62.jpg",
+                "RL_10K_2023_86.jpg"
+            ]
+        },
+        {
+            "id": 125,
+            "question": "In 2024, which segment of NextEra Energy, FPL or NEER, contributed more to the total net income attributable to NEE, and by how much?",
+            "answer": "FPL, 2,244",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NEE_10K_2024_38.jpg",
+                "NEE_10K_2024_113.jpg"
+            ]
+        },
+        {
+            "id": 126,
+            "question": "Between Vistra Corp. and Exelon Corporation, which had a higher total equity in 2020, and by how much did it exceed the other company's total equity?",
+            "answer": "Exelon Corporation, 26,507",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "VST_10K_2020_104.jpg",
+                "EXC_10K_2020_189.jpg"
+            ]
+        },
+        {
+            "id": 127,
+            "question": "Determine the company with the highest U.S. wholesale revenue in 2022 between Kontoor Brands and Columbia Sportswear, and provide the revenue figures for both.",
+            "answer": "Kontoor Brands, 1,894.46 million, Columbia Sportswear, 1,114.34 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "KTB_10K_2022_61.jpg",
+                "COLM_10K_2022_52.jpg"
+            ]
+        },
+        {
+            "id": 128,
+            "question": "In 2021, which company had a higher amount of long-term debt, Constellation Energy Generation or Pacific Gas and Electric, and what was the difference?",
+            "answer": "Pacific Gas and Electric, 29,057",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CEG_10K_2021_89.jpg",
+                "PCG_10K_2021_110.jpg"
+            ]
+        },
+        {
+            "id": 129,
+            "question": "Rank the companies Yum China Holdings and Domino's Pizza based on their comprehensive income in 2023.",
+            "answer": "Yum China Holdings, Domino's Pizza",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "YUMC_10K_2023_92.jpg",
+                "DPZ_10K_2023_56.jpg"
+            ]
+        },
+        {
+            "id": 130,
+            "question": "What was the percentage change in Lucid Group's inventory from 2021 to 2022, and how does it compare to GM's inventory in 2022?",
+            "answer": "88.23%, 15,826",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "LCID_10K_2022_90.jpg",
+                "GM_10K_2022_57.jpg"
+            ]
+        },
+        {
+            "id": 131,
+            "question": "Determine the change in accumulated deficit for CAVA Group from 2023 to 2024 and compare it to the change in retained deficit for Domino's Pizza over the same period.",
+            "answer": "130,319, 113,174",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "CAVA_10K_2024_65.jpg",
+                "DPZ_10K_2024_58.jpg"
+            ]
+        },
+        {
+            "id": 132,
+            "question": "Between Crocs and Skechers U.S.A., which company had a higher gross margin in 2024, and what was the margin?",
+            "answer": "Crocs, 58.8%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "SKX_10K_2024_49.jpg",
+                "CROX_10K_2024_39.jpg"
+            ]
+        },
+        {
+            "id": 133,
+            "question": "Calculate the operating margin for Domino's Pizza in fiscal year 2020 and compare it to Aramark's operating margin for the same year.",
+            "answer": "17.62%, -2.06%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "DPZ_10K_2021_48.jpg",
+                "ARMK_10K_2021_61.jpg"
+            ]
+        },
+        {
+            "id": 134,
+            "question": "Between QUALCOMM and KLA, which company had a higher total stockholders' equity at the end of fiscal year 2022, and what was the difference?",
+            "answer": "QUALCOMM, $16,613.91 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "QCOM_10K_2022_58.jpg",
+                "KLAC_10K_2022_59.jpg"
+            ]
+        },
+        {
+            "id": 135,
+            "question": "In fiscal 2020, how much did Tractor Supply Company return to stockholders through stock repurchases and dividends, and what was the percentage of net income returned?",
+            "answer": "$517.6 million, 69.10%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TSCO_10K_2020_34.jpg",
+                "TSCO_10K_2020_57.jpg"
+            ]
+        },
+        {
+            "id": 136,
+            "question": "Determine the change in Dominion Energy's long-term debt from 2019 to 2020 and compare it to the change in Exelon Corporation's long-term debt over the same period.",
+            "answer": "5,423, 3,764",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "EXC_10K_2020_189.jpg",
+                "D_10K_2020_93.jpg"
+            ]
+        },
+        {
+            "id": 137,
+            "question": "Which company, EOG Resources or Diamondback Energy, had a higher total long-term debt at the end of 2023, and what was the difference in their long-term debt values?",
+            "answer": "Diamondback Energy, 2876",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "EOG_10K_2023_73.jpg",
+                "FANG_10K_2023_102.jpg"
+            ]
+        },
+        {
+            "id": 138,
+            "question": "Between 2022 and 2023, which company, Valero Energy Corporation or EOG Resources, had a greater increase in cash and cash equivalents, and what was the amount of the increase?",
+            "answer": "Valero Energy Corporation, 562 million",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "VLO_10K_2023_74.jpg",
+                "EOG_10K_2023_66.jpg"
+            ]
+        },
+        {
+            "id": 139,
+            "question": "Which company, ConocoPhillips or Occidental Petroleum, had a higher net income in 2022, and what was the difference in their net incomes?",
+            "answer": "ConocoPhillips, 5376 millon",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "COP_10K_2022_76.jpg",
+                "OXY_10K_2022_67.jpg"
+            ]
+        },
+        {
+            "id": 140,
+            "question": "For the year 2020, which company had a higher interest expense, ConocoPhillips or EQT Corporation, and what was the amount?",
+            "answer": "ConocoPhillips, $806 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "COP_10K_2020_88.jpg",
+                "EQT_10K_2020_67.jpg"
+            ]
+        },
+        {
+            "id": 141,
+            "question": "Rank the companies, lululemon athletica and Crocs, based on their total assets at the end of fiscal year 2022.",
+            "answer": "lululemon athletica, Crocs",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "LULU_10K_2022_44.jpg",
+                "CROX_10K_2022_72.jpg"
+            ]
+        },
+        {
+            "id": 142,
+            "question": "Between 2020 and 2022, which company, Pacific Gas and Electric Company or WEC Energy Group, experienced a greater increase in electric operating revenues, and what was the amount of this increase?",
+            "answer": "Pacific Gas and Electric Company, 1,202 million",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "PCG_10K_2022_105.jpg",
+                "WEC_10K_2022_112.jpg"
+            ]
+        },
+        {
+            "id": 143,
+            "question": "In 2021, which company had a higher total revenue, Texas Roadhouse or McDonald's, and what was the revenue amount for that company?",
+            "answer": "McDonald's, 23,222.90",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TXRH_10K_2021_44.jpg",
+                "MCD_10K_2021_38.jpg"
+            ]
+        },
+        {
+            "id": 144,
+            "question": "In 2022, which company had a higher effective tax rate, Regeneron Pharmaceuticals or Zoetis, and what were their respective rates?",
+            "answer": "Zoetis, 28.8%, Regeneron Pharmaceuticals, 10.7%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "REGN_10K_2022_88.jpg",
+                "ZTS_10K_2022_40.jpg"
+            ]
+        },
+        {
+            "id": 145,
+            "question": "Compare the current ratio of VF Corporation and Columbia Sportswear for 2021, and identify which company had a better liquidity position.",
+            "answer": "Columbia Sportswear",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "VFC_10K_2021_35.jpg",
+                "COLM_10K_2021_42.jpg"
+            ]
+        },
+        {
+            "id": 146,
+            "question": "Determine the company with the highest goodwill value at the end of fiscal year 2024 between CVS Health and TJX Companies, and provide the goodwill value for that company.",
+            "answer": "CVS Health, 91,272",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "CVS_10K_2024_150.jpg",
+                "TJX_10K_2024_52.jpg"
+            ]
+        },
+        {
+            "id": 147,
+            "question": "Compare the environmental expenditures of Occidental Petroleum in 2024 to the asset retirement obligations and accrued environmental costs of ConocoPhillips in the same year.",
+            "answer": "Occidental Petroleum, $812 million, ConocoPhillips, $8,089 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "OXY_10K_2024_56.jpg",
+                "COP_10K_2024_81.jpg"
+            ]
+        },
+        {
+            "id": 148,
+            "question": "Comparing Merck & Co. and Pfizer Inc., which company had a higher net income in 2020, and what was the difference in their net incomes?",
+            "answer": "Pfizer Inc., $2,549 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "MRK_10K_2020_50.jpg",
+                "PFE_10K_2020_58.jpg"
+            ]
+        },
+        {
+            "id": 149,
+            "question": "In 2023, what was the percentage increase in research and development expenses for First Solar compared to 2022, and how does it compare to the percentage increase in Texas Instruments' R&D expenses over the same period?",
+            "answer": "35.0%, 11.56%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "FSLR_10K_2023_57.jpg",
+                "TXN_10K_2023_25.jpg"
+            ]
+        },
+        {
+            "id": 150,
+            "question": "Calculate the percentage change in goodwill for Yum! Brands from December 31, 2020, to December 31, 2021.",
+            "answer": "10.05%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "YUM_10K_2021_58.jpg",
+                "YUM_10K_2021_78.jpg"
+            ]
+        },
+        {
+            "id": 151,
+            "question": "Calculate the net income attributable to Vistra Corp. in 2020 and compare it to Exelon Corporation's net income for the same year.",
+            "answer": "678, 1,963",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "VST_10K_2020_88.jpg",
+                "EXC_10K_2020_190.jpg"
+            ]
+        },
+        {
+            "id": 152,
+            "question": "What was the difference in total shareholders' equity between Truist Financial Corporation and M&T Bank Corporation as of December 31, 2023?",
+            "answer": "32,343",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TFC_10K_2023_51.jpg",
+                "MTB_10K_2023_121.jpg"
+            ]
+        },
+        {
+            "id": 153,
+            "question": "What was the percentage increase in total revenues for Yum China Holdings from 2022 to 2023, and how does it compare to the percentage increase in total revenues for McDonald's Corporation over the same period?",
+            "answer": "14.72%, 9.96%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "YUMC_10K_2023_91.jpg",
+                "MCD_10K_2023_13.jpg"
+            ]
+        },
+        {
+            "id": 154,
+            "question": "For the fiscal year 2024, which company had a higher revenue from their direct-to-consumer channel, Crocs Inc. or Deckers Outdoor Corporation, and what was the revenue amount?",
+            "answer": "Deckers Outdoor Corporation, 1,855.46",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CROX_10K_2024_39.jpg",
+                "DECK_10K_2024_36.jpg"
+            ]
+        },
+        {
+            "id": 155,
+            "question": "Rank the companies by their total noninterest income in 2024, including JPMorgan Chase and Fifth Third Bancorp.",
+            "answer": "JPMorgan Chase, Fifth Third Bancorp",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "JPM_10K_2024_174.jpg",
+                "FITB_10K_2024_48.jpg"
+            ]
+        },
+        {
+            "id": 156,
+            "question": "Determine the company with the highest net sales in 2021 between Harley-Davidson and Blue Bird, and specify the net sales amount.",
+            "answer": "Harley-Davidson, 4540.24 million",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "HOG_10K_2021_30.jpg",
+                "BLBD_10K_2021_49.jpg"
+            ]
+        },
+        {
+            "id": 157,
+            "question": "Calculate the change in operating income for Starbucks from fiscal 2019 to fiscal 2020 and compare it with the change in operating income for McDonald's from 2019 to 2020, identifying which company had a greater decrease.",
+            "answer": "Starbucks",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "SBUX_10K_2020_29.jpg",
+                "MCD_10K_2020_11.jpg"
+            ]
+        },
+        {
+            "id": 158,
+            "question": "Which company, Tesla or Blue Bird, had a higher percentage increase in total assets from 2023 to 2024, and what was the percentage increase for that company?",
+            "answer": "Blue Bird, 25.63%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2024_51.jpg",
+                "BLBD_10K_2024_55.jpg"
+            ]
+        },
+        {
+            "id": 159,
+            "question": "In 2022, which company had a higher comprehensive income attributable to common stockholders, General Motors or Tesla, and by how much?",
+            "answer": "Tesla, 838",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "GM_10K_2022_56.jpg",
+                "TSLA_10K_2022_50.jpg"
+            ]
+        },
+        {
+            "id": 160,
+            "question": "Calculate the percentage increase in ConocoPhillips' retained earnings from 2021 to 2022.",
+            "answer": "30.38%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "COP_10K_2022_78.jpg"
+            ]
+        },
+        {
+            "id": 161,
+            "question": "What was the total operating income for Southern Company's electricity business in 2024, and how does it compare to Constellation Energy Generation's operating income for the same year?",
+            "answer": "5,975, 4,352",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "SO_10K_2024_57.jpg",
+                "CEG_10K_2024_94.jpg"
+            ]
+        },
+        {
+            "id": 162,
+            "question": "Identify the company with the greater increase in goodwill from 2022 to 2023 between Columbia Sportswear Company and Skechers U.S.A., and specify the increase amount.",
+            "answer": "Skechers U.S.A., 7.73",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "COLM_10K_2023_41.jpg",
+                "SKX_10K_2023_31.jpg",
+                "SKX_10K_2023_37.jpg"
+            ]
+        },
+        {
+            "id": 163,
+            "question": "For the year ended December 31, 2022, what was Tesla's gross profit margin, and how does it compare to REV Group's gross profit margin for the fiscal year ended October 31, 2022?",
+            "answer": "25.60%, 10.62%",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "TSLA_10K_2022_49.jpg",
+                "REVG_10K_2022_61.jpg"
+            ]
+        },
+        {
+            "id": 164,
+            "question": "What was the total cash flow from operating activities for Regeneron Pharmaceuticals in 2022, and how does it compare to Zoetis Inc.'s net income for the same year?",
+            "answer": "5,014.9, 2,114",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "REGN_10K_2022_112.jpg",
+                "ZTS_10K_2022_58.jpg"
+            ]
+        },
+        {
+            "id": 165,
+            "question": "Calculate the percentage change in total assets for QUALCOMM from September 26, 2021, to September 25, 2022.",
+            "answer": "18.85%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "QCOM_10K_2022_58.jpg"
+            ]
+        },
+        {
+            "id": 166,
+            "question": "Rank WEC Energy Group and Xcel Energy by their total natural gas utility operating revenues in 2023, from highest to lowest.",
+            "answer": "WEC Energy Group, Xcel Energy",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "WEC_10K_2024_129.jpg",
+                "XEL_10K_2024_62.jpg"
+            ]
+        },
+        {
+            "id": 167,
+            "question": "In 2024, which company had a greater issuance of common stock, Duke Energy or Exelon, and by what amount?",
+            "answer": "Duke Energy, 426",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "DUK_10K_2024_79.jpg",
+                "EXC_10K_2024_127.jpg"
+            ]
+        },
+        {
+            "id": 168,
+            "question": "In 2024, which company had a higher total liabilities to total assets ratio, Lockheed Martin or TransDigm Group?",
+            "answer": "TransDigm Group",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "LMT_10K_2024_58.jpg",
+                "TDG_10K_2024_86.jpg"
+            ]
+        },
+        {
+            "id": 169,
+            "question": "Which company had a higher total liabilities in 2024, CAVA Group or Domino's Pizza, and what was the difference in their total liabilities?",
+            "answer": "Domino's Pizza, 5,225,201",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "CAVA_10K_2024_63.jpg",
+                "DPZ_10K_2024_55.jpg"
+            ]
+        },
+        {
+            "id": 170,
+            "question": "In 2024, which company, Levi Strauss & Co. or Skechers U.S.A., had a higher net income, and what was the net income for that company?",
+            "answer": "Skechers U.S.A., 639.47",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LEVI_10K_2024_87.jpg",
+                "SKX_10K_2024_34.jpg"
+            ]
+        },
+        {
+            "id": 171,
+            "question": "Determine the company with the highest depreciation and amortization expense in 2022 between WEC Energy Group and Constellation Energy, and state the amount.",
+            "answer": "WEC Energy Group, 1,112.6 million",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "WEC_10K_2022_92.jpg",
+                "CEG_10K_2022_92.jpg"
+            ]
+        },
+        {
+            "id": 172,
+            "question": "Determine the change in Entergy Louisiana's member's equity from 2019 to 2020.",
+            "answer": "1,060,805",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "ETR_10K_2020_377.jpg"
+            ]
+        },
+        {
+            "id": 173,
+            "question": "Comparing Wingstop Inc. and Yum China Holdings, which company had a higher net income in 2023, and by how much did it exceed the other company's net income?",
+            "answer": "Yum China Holdings, 756.83 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "WING_10K_2023_53.jpg",
+                "YUMC_10K_2023_91.jpg"
+            ]
+        },
+        {
+            "id": 174,
+            "question": "What was the percentage change in NXP Semiconductors' revenue from 2019 to 2020, and how does it compare to the percentage change in Broadcom's total net revenue over the same period?",
+            "answer": "-2.98%, 5.71%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NXPI_10K_2020_42.jpg",
+                "AVGO_10K_2020_44.jpg"
+            ]
+        },
+        {
+            "id": 175,
+            "question": "What was the total increase in long-term debt for both American Electric Power Company and Constellation Energy Corporation from 2023 to 2024?",
+            "answer": "1,543.1",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "AEP_10K_2024_108.jpg",
+                "CEG_10K_2024_92.jpg"
+            ]
+        },
+        {
+            "id": 176,
+            "question": "Which company, NVIDIA or KLA, had a higher net income growth rate from fiscal year 2020 to 2022, and what was the growth rate for that company?",
+            "answer": "NVIDIA, 248.78%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "NVDA_10K_2022_48.jpg",
+                "KLAC_10K_2022_61.jpg"
+            ]
+        },
+        {
+            "id": 177,
+            "question": "Which company, Bristol-Myers Squibb in 2023 or Regeneron Pharmaceuticals in 2023, had a higher total of cash and cash equivalents combined with marketable securities, and what was the total amount for that company?",
+            "answer": "Regeneron Pharmaceuticals, 16,241.3 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "BMY_10K_2023_74.jpg",
+                "REGN_10K_2023_103.jpg"
+            ]
+        },
+        {
+            "id": 178,
+            "question": "Between 2020 and 2021, which company, PSX or ConocoPhillips, experienced a greater change in research and development expenses, and what was the change in millions of dollars?",
+            "answer": "ConocoPhillips, -13 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "PSX_10K_2021_141.jpg",
+                "COP_10K_2021_144.jpg"
+            ]
+        },
+        {
+            "id": 179,
+            "question": "Determine the company with the highest asset management fees in 2024 between JPMorgan Chase and Fifth Third Bancorp, and specify the amount.",
+            "answer": "JPMorgan Chase, 17,801",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "JPM_10K_2024_174.jpg",
+                "FITB_10K_2024_48.jpg"
+            ]
+        },
+        {
+            "id": 180,
+            "question": "Calculate the change in total liabilities for Domino's Pizza from 2021 to 2022 and compare it to the change in total liabilities for Yum China Holdings over the same period.",
+            "answer": "1,013.78, -635.00",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "DPZ_10K_2022_52.jpg",
+                "YUMC_10K_2022_94.jpg"
+            ]
+        },
+        {
+            "id": 181,
+            "question": "In 2021, which company had a higher total stockholders' equity, AMD or Microchip Technology, and by how much?",
+            "answer": "AMD, 2,159.9",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "AMD_10K_2021_53.jpg",
+                "MCHP_10K_2021_68.jpg"
+            ]
+        },
+        {
+            "id": 182,
+            "question": "In 2020, what was the percentage change in Micron Technology's total assets compared to 2019, and how does it compare to Intel's percentage change in total assets over the same period?",
+            "answer": "9.80%, 12.13%",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MU_10K_2020_52.jpg",
+                "INTC_10K_2020_78.jpg"
+            ]
+        },
+        {
+            "id": 183,
+            "question": "Which company, between Deckers Outdoor Corporation and Crocs, had a higher net income in 2024, and what was the difference in their net incomes?",
+            "answer": "Crocs, 190,508",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "DECK_10K_2024_64.jpg",
+                "CROX_10K_2024_68.jpg"
+            ]
+        },
+        {
+            "id": 184,
+            "question": "Identify the company with the higher total liabilities as of the end of their respective fiscal years in 2020, comparing Oshkosh Corporation and Federal Signal Corporation.",
+            "answer": "Oshkosh Corporation",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "OSK_10K_2020_55.jpg",
+                "FSS_10K_2020_38.jpg"
+            ]
+        },
+        {
+            "id": 185,
+            "question": "What was the total amount of dividends paid by WEC Energy Group in 2024, and how does it compare to the dividends paid by NextEra Energy in the same year?",
+            "answer": "WEC Energy Group, $(1,056.2) million, NextEra Energy, $(4,235) million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "WEC_10K_2024_112.jpg",
+                "NEE_10K_2024_66.jpg"
+            ]
+        },
+        {
+            "id": 186,
+            "question": "For the fiscal year 2020, calculate the difference in gross margin percentage between Micron Technology and Intel.",
+            "answer": "25.43%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "MU_10K_2020_50.jpg",
+                "INTC_10K_2020_52.jpg"
+            ]
+        },
+        {
+            "id": 187,
+            "question": "Calculate the percentage change in Axon Enterprise's inventory from December 31, 2019 to December 31, 2020, and determine if it increased or decreased.",
+            "answer": "131.58%, increased",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "AXON_10K_2020_68.jpg",
+                "AXON_10K_2020_48.jpg"
+            ]
+        },
+        {
+            "id": 188,
+            "question": "Between fiscal years 2021 and 2022, which company experienced a greater absolute change in net sales, Microchip Technology or Intel?",
+            "answer": "Intel",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "MCHP_10K_2022_67.jpg",
+                "INTC_10K_2022_78.jpg"
+            ]
+        },
+        {
+            "id": 189,
+            "question": "Between Texas Roadhouse and Domino's Pizza, which company had a greater increase in property and equipment net value from 2022 to 2023, and what were the respective increases?",
+            "answer": "Texas Roadhouse, 204.37 million, 2.13 million",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TXRH_10K_2023_62.jpg",
+                "DPZ_10K_2023_54.jpg"
+            ]
+        },
+        {
+            "id": 190,
+            "question": "Determine the company with the highest net property and equipment value in fiscal year 2020 and provide the value.",
+            "answer": "Costco, 21,807.00",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TJX_10K_2020_59.jpg",
+                "COST_10K_2020_20.jpg"
+            ]
+        },
+        {
+            "id": 191,
+            "question": "What was the total depreciation and amortization expense for Phillips 66 in 2024, and how does it compare to Valero Energy Corporation's total depreciation and amortization expense for the same year?",
+            "answer": "Phillips 66: $2,363 million, Valero Energy Corporation: $2,729 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "VLO_10K_2024_73.jpg",
+                "PSX_10K_2024_104.jpg"
+            ]
+        },
+        {
+            "id": 192,
+            "question": "In 2023, which company had a higher operating lease liability, Yum China Holdings or Chipotle Mexican Grill, and by how much?",
+            "answer": "Chipotle Mexican Grill, $1,726.625 million",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "YUMC_10K_2023_116.jpg",
+                "CMG_10K_2023_35.jpg"
+            ]
+        },
+        {
+            "id": 193,
+            "question": "Between Federal Signal Corporation and REV Group, which company had a higher dividend payout per share in 2020, and by how much?",
+            "answer": "Federal Signal Corporation, $0.22",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "FSS_10K_2020_71.jpg",
+                "REVG_10K_2020_62.jpg"
+            ]
+        },
+        {
+            "id": 194,
+            "question": "In 2023, which company had a higher total operating expense, Lucid Group or Harley-Davidson, and what was the total amount for that company?",
+            "answer": "Harley-Davidson, 5,057.39",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LCID_10K_2023_78.jpg",
+                "HOG_10K_2023_59.jpg"
+            ]
+        },
+        {
+            "id": 195,
+            "question": "Calculate the total comprehensive income for Oshkosh Corporation and Blue Bird Corporation during the fiscal year 2020 and identify which company had a higher comprehensive income.",
+            "answer": "Oshkosh Corporation",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "OSK_10K_2020_54.jpg",
+                "BLBD_10K_2020_50.jpg"
+            ]
+        },
+        {
+            "id": 196,
+            "question": "Calculate the percentage change in net loss for Alnylam Pharmaceuticals from 2023 to 2024 and compare it to the percentage change in net earnings for Bristol-Myers Squibb over the same period.",
+            "answer": "-36.82%, 211.10%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "ALNY_10K_2024_91.jpg",
+                "BMY_10K_2024_77.jpg"
+            ]
+        },
+        {
+            "id": 197,
+            "question": "Determine the total net revenues for Kontoor Brands' Lee segment in 2024 and compare it to Ralph Lauren's Asia segment net revenues in Fiscal Year 2024.",
+            "answer": "$790.625, $1,566.6",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "KTB_10K_2024_60.jpg",
+                "RL_10K_2024_133.jpg"
+            ]
+        },
+        {
+            "id": 198,
+            "question": "Determine the company with the highest operating income in 2023 between Public Service Enterprise Group and DTE Energy, and provide the operating income value.",
+            "answer": "Public Service Enterprise Group, 3685",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "PEG_10K_2023_66.jpg",
+                "DTE_10K_2023_60.jpg"
+            ]
+        },
+        {
+            "id": 199,
+            "question": "Which company, Citigroup Inc. or Fifth Third Bancorp, had a higher total assets value at the end of 2021, and what was the difference in their total assets?",
+            "answer": "Citigroup Inc., 2,080,297",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "C_10K_2021_11.jpg",
+                "FITB_10K_2021_110.jpg"
+            ]
+        },
+        {
+            "id": 200,
+            "question": "Calculate the percentage increase in total revenues for KLA Corporation from fiscal year 2019 to 2021, and compare it to Broadcom Inc.'s percentage increase over the same period.",
+            "answer": "51.43%, 21.48%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "KLAC_10K_2021_66.jpg",
+                "AVGO_10K_2021_54.jpg"
+            ]
+        },
+        {
+            "id": 201,
+            "question": "What was the total depreciation expense for Lockheed Martin in 2023, and how does it compare to Northrop Grumman's accumulated depreciation for the same year?",
+            "answer": "920, (7,964)",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "LMT_10K_2023_76.jpg",
+                "NOC_10K_2023_63.jpg"
+            ]
+        },
+        {
+            "id": 202,
+            "question": "What was the total revenue from U.S. Government contracts for General Dynamics in 2022, and how does it compare to the total revenue from Raytheon Technologies' Raytheon Missiles & Defense segment in the same year?",
+            "answer": "27,691, 14,863",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "GD_10K_2022_79.jpg",
+                "RTX_10K_2022_115.jpg"
+            ]
+        },
+        {
+            "id": 203,
+            "question": "Which company, General Motors or Tesla, had a higher net income in 2022, and what was the difference in their net incomes?",
+            "answer": "Tesla, 2,879",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "GM_10K_2022_56.jpg",
+                "TSLA_10K_2022_50.jpg"
+            ]
+        },
+        {
+            "id": 204,
+            "question": "Calculate the total comprehensive income for Oshkosh Corporation in 2022 and compare it to Rivian Automotive's net loss for the same year.",
+            "answer": "210.2, -6752",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "OSK_10K_2022_55.jpg",
+                "RIVN_10K_2022_70.jpg"
+            ]
+        },
+        {
+            "id": 205,
+            "question": "What was the total amount of capital expenditures for Northrop Grumman Corporation in 2021, and how does it compare to the capital expenditures of TransDigm Group Incorporated for the same year?",
+            "answer": "1,415, 105",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "NOC_10K_2021_91.jpg",
+                "TDG_10K_2021_33.jpg"
+            ]
+        },
+        {
+            "id": 206,
+            "question": "Calculate the percentage change in operating revenue for Dominion Energy from 2023 to 2024 and compare it with the percentage change for NextEra Energy over the same period.",
+            "answer": "0.46%, -11.95%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "D_10K_2024_61.jpg",
+                "NEE_10K_2024_62.jpg"
+            ]
+        },
+        {
+            "id": 207,
+            "question": "Between 2022 and 2023, which company, Bristol-Myers Squibb or Regeneron Pharmaceuticals, experienced a greater increase in total assets, and what was the increase amount?",
+            "answer": "Regeneron Pharmaceuticals, 3,865.7",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "BMY_10K_2023_74.jpg",
+                "REGN_10K_2023_103.jpg"
+            ]
+        },
+        {
+            "id": 208,
+            "question": "Which company, between AMD and Micron, had a higher net income in 2022, and what was the difference in their net incomes?",
+            "answer": "Micron, 7,367",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "AMD_10K_2022_54.jpg",
+                "MU_10K_2022_54.jpg"
+            ]
+        },
+        {
+            "id": 209,
+            "question": "In 2021, what was the total stock-based compensation expense for Texas Instruments and Broadcom combined, and which company had a higher individual expense?",
+            "answer": "$1,934 million, Broadcom",
+            "subtype": "Multi-hop Numerical Reasoning",
+            "evidence_pages": [
+                "TXN_10K_2021_34.jpg",
+                "AVGO_10K_2021_87.jpg"
+            ]
+        },
+        {
+            "id": 210,
+            "question": "In 2024, which brand, Crocs or HEYDUDE, had a higher percentage increase in direct-to-consumer revenues compared to 2023?",
+            "answer": "Crocs",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "CROX_10K_2024_39.jpg"
+            ]
+        },
+        {
+            "id": 211,
+            "question": "Rank the companies Xcel Energy, Entergy Corporation, and Entergy Texas based on their total liabilities and equity in 2023.",
+            "answer": "Xcel Energy, Entergy Corporation, Entergy Texas",
+            "subtype": "Ranking",
+            "evidence_pages": [
+                "XEL_10K_2023_50.jpg",
+                "ETR_10K_2023_61.jpg",
+                "ETR_10K_2023_453.jpg"
+            ]
+        },
+        {
+            "id": 212,
+            "question": "Comparing Lucid Group's total assets in 2022 and 2021, and GM's total assets in 2022, which company had the highest total assets in 2022?",
+            "answer": "GM",
+            "subtype": "Comparison",
+            "evidence_pages": [
+                "LCID_10K_2022_90.jpg",
+                "GM_10K_2022_57.jpg"
+            ]
+        },
+        {
+            "id": 213,
+            "question": "What was Vertex's operating cash flow as a percentage of its 2024 product revenues and how many percentage points different was that from Eli Lilly's operating cash flow as a percentage of its 2024 revenue?",
+            "answer": "-4.47%, 24.02%",
+            "subtype": "Calculation",
+            "evidence_pages": [
+                "LLY_10K_2024_58.jpg",
+                "LLY_10K_2024_62.jpg",
+                "VRTX_10K_2024_105.jpg",
+                "VRTX_10K_2024_109.jpg"
+            ]
+        }
+    ]
+}

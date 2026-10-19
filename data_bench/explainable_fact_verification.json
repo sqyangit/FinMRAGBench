@@ -1,0 +1,1756 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "question": "NVIDIA’s 2025 annual report states that the company’s ability to forecast customer demand is strengthened by short lead times with suppliers and stable component availability across all fiscal years.",
+            "answer": "Refuted",
+            "explanation": "The disclosures state NVIDIA faces long manufacturing lead times and uncertain supply/component availability, including extended lead times of more than 12 months, leading to mismatches between supply and demand. These conditions undermine, not strengthen, demand forecasting—contrary to the claim.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "NVDA_10K_2025_16.jpg",
+                "NVDA_10K_2025_18.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Both Zoetis and Pfizer state that they disaggregate R&D spending by therapeutic area or development phase in their 2024 reports.",
+            "answer": "Refuted",
+            "explanation": "The Zoetis 2024 report explicitly states it does not disaggregate R&D operations by research stage or therapeutic area, while Pfizer 2024 report also states it does not disaggregate R&D expense by development phase or therapeutic area. Therefore, the claim that both companies disaggregate spending is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ZTS_10K_2024_9.jpg",
+                "PFE_10K_2024_11.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Both Darden Restaurants and Texas Roadhouse in 2024 highlighted social media mismanagement as a material risk with potential adverse impacts on reputation and guest traffic.",
+            "answer": "Supported",
+            "explanation": "In Darden’s 2024 annual report (Fig.2), it states that failure to recognize, respond to, and manage social media impact could materially harm business, financial condition, and results. Texas Roadhouse’s 2024 report (Fig.5–6) also emphasizes risks of social media misuse, misinformation, and negative publicity that could damage reputation and reduce guest traffic. Both companies explicitly highlighted social media mismanagement as a material risk.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "TXRH_10K_2024_30.jpg",
+                "TXRH_10K_2024_31.jpg",
+                "DRI_10K_2024_22.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "The provision for credit losses in Retail Banking of PNC Financial Services Group increased consistently from 2018 through 2024 across the reported tables.",
+            "answer": "Refuted",
+            "explanation": "In 2018 the Retail Banking provision for credit losses was $373, which rose to $517 in 2019. However, it then fell to $396 in 2023 and further to $362 in 2024, showing the metric did not increase consistently across the period.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PNC_10K_2019_51.jpg",
+                "PNC_10K_2024_54.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Only American Electric Power Company, Inc. reported participating in the bi-annual NERC Grid Security Exercise (GridEx) in 2023, whereas Exelon Corporation and The Southern Company did not report bi-annual participation.",
+            "answer": "Refuted",
+            "explanation": "The AEP 2023 annual report explicitly mentions participation in the NERC GridEx bi-annual exercise. The Exelon 2023 annual report discloses participation in bi-annual Grid Security Exercises, although it does not directly use the name GridEx. The Southern Company 2023 annual report likewise states participation in the bi-annual Grid Security Exercise led by NERC. Therefore, the statement that 'only AEP reported participation in GridEx while Exelon and Southern Company did not report bi-annual participation' is incorrect.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AEP_10K_2023_45.jpg",
+                "EXC_10K_2023_37.jpg",
+                "SO_10K_2023_38.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Boeing’s R&D expense growth in 2024 was mainly driven by the 777X program, while Axon’s R&D increase was due to higher headcount and compensation.",
+            "answer": "Supported",
+            "explanation": "Boeing disclosed that its 2024 R&D increase of $435 million was primarily driven by higher spending on the 777X program and enterprise product development investments. Axon’s report stated its R&D increase was due to more employees, higher wages, and stock-based compensation. This aligns with the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2024_47.jpg",
+                "BA_10K_2024_32.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "During 2020–2023, lululemon athletica inc.’s women’s category share declined continuously and the men’s business kept growing; by 2023, the primary customer group had shifted from women to men, and the company proposed targeted initiatives for the male customer segment.",
+            "answer": "Refuted",
+            "explanation": "The evidence from Lululemon’s 2020–2023 annual reports shows that the women’s category share declined gradually from 69% (2020) to 67% (2021), 65% (2022), and 64% (2023), while men’s revenue grew. However, women consistently remained the primary customer group, and there is no evidence that men overtook women as the main segment by 2023. The reports do mention targeted strategies and initiatives to grow the men’s business, but the statement that the primary customer group had shifted from women to men by 2023 is contradicted by the data.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LULU_10K_2020_4.jpg",
+                "LULU_10K_2021_4.jpg",
+                "LULU_10K_2022_4.jpg",
+                "LULU_10K_2023_4.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Both Broadcom and AMD disclose in 2024 annual report that their liquidity resources are sufficient to fund operations for at least the next twelve months.",
+            "answer": "Supported",
+            "explanation": "Broadcom states that cash on hand, operating cash flows, and its $7.5B revolver will provide sufficient liquidity to operate and fund obligations for at least the next 12 months. AMD similarly states its cash, short-term investments, operating cash flows, and available facilities will be sufficient to fund operations over the next 12 months and beyond.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AVGO_10K_2024_46.jpg",
+                "AMD_10K_2024_53.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Xcel Energy Inc. gradually increased its 2030 carbon reduction target from 70% to 80% in its 2020, 2022, and 2024 annual reports.",
+            "answer": "Refuted",
+            "explanation": "The evidence from Xcel Energy’s annual reports shows that the 2030 carbon reduction target was consistently stated as 80% using current technologies. In the 2020 report, the company committed to reducing carbon emissions 80% by 2030; the 2022 report reaffirmed this 80% reduction goal; and the 2024 report again emphasized the 80% target. There is no indication that the target was ever set at 70% in these reports, so the claim of a gradual increase from 70% to 80% is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "XEL_10K_2020_6.jpg",
+                "XEL_10K_2022_6.jpg",
+                "XEL_10K_2024_7.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Boeing’s consolidated revenues in 2021 exceeded 2020 by more than $4 billion, primarily driven by increases in Commercial Airplanes and Global Services segments.",
+            "answer": "Supported",
+            "explanation": "Consolidated revenues rose from $58,158 million in 2020 to $62,286 million in 2021, an increase of $4,128 million. The narrative states the increase was mainly driven by higher revenues at Commercial Airplanes ($3,331 million) and Global Services ($785 million).",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2021_28.jpg",
+                "BA_10K_2021_29.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "American Electric Power Company, Inc., Exelon Corporation, and The Southern Company all delegated primary board-level cybersecurity oversight to a dedicated security committee in 2023.",
+            "answer": "Refuted",
+            "explanation": "In 2023, Southern Company explicitly delegated cybersecurity oversight to the Board’s Business Security and Resiliency Committee (BSRC), which is a dedicated security committee. Exelon Corporation’s disclosure shows that its Board oversees cybersecurity risks but does not indicate delegation to a separate, dedicated security committee; instead, oversight is integrated within overall board and management structures. American Electric Power Company’s disclosure states that cybersecurity oversight is handled by the Board of Directors and the Technology Committee but does not mention a dedicated security committee. Therefore, the claim that all three companies delegated cybersecurity oversight to a dedicated security committee is refuted.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AEP_10K_2023_46.jpg",
+                "EXC_10K_2023_37.jpg",
+                "SO_10K_2023_36.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "KFC achieved a higher percentage increase in total unit count than Pizza Hut from 2023 to 2024 according to the disclosed data.",
+            "answer": "Supported",
+            "explanation": "The evidence shows KFC's total units increased from 10,296 in 2023 to 11,648 in 2024 (a 13% increase), while Pizza Hut's total units rose from 3,312 to 3,724 (a 12% increase), confirming KFC had a higher percentage increase.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "YUMC_10K_2024_75.jpg",
+                "YUMC_10K_2024_77.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "In the 2023 annual reports, lululemon athletica inc. and Columbia Sportswear Company disclosed that their product sales structure or market demand showed significant seasonality, while Nike, Inc. stated its performance remained stable throughout the year.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that Lululemon emphasized that a large share of its profit was concentrated in the fourth quarter, and Columbia disclosed that nearly 60% of sales and 80% of operating income were realized in the second half of the year, both reflecting strong seasonality. Nike, however, stated that its revenue and profit fluctuate due to seasonality, product mix, geographic demand, and major events, and did not claim stability throughout the year. Therefore, the statement that Nike reported stable performance across the year is contradicted by the disclosures.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LULU_10K_2023_8.jpg",
+                "LULU_10K_2023_14.jpg",
+                "COLM_10K_2023_10.jpg",
+                "COLM_10K_2023_25.jpg",
+                "NKE_10K_2023_17.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "PNC Financial Services Group reported four business segments including BlackRock in 2019, but only three segments excluding BlackRock in 2024 after adopting ASU 2023-07.",
+            "answer": "Supported",
+            "explanation": "The 2019 Business Segments Review lists four reportable segments: Retail Banking, Corporate & Institutional Banking, Asset Management Group, and BlackRock. The 2024 review, after adopting ASU 2023-07, lists only three reportable segments: Retail Banking, Corporate & Institutional Banking, and Asset Management Group, confirming that BlackRock is no longer included.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "PNC_10K_2019_50.jpg",
+                "PNC_10K_2024_53.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "In both March 2021 and March 2023, the changes in goodwill were primarily attributed to impairment charges related to the V.F. Corporation’s Timberland reporting unit.",
+            "answer": "Refuted",
+            "explanation": "In March 2021, the increase in goodwill was primarily due to amounts recorded in connection with the Supreme acquisition of $1.25 billion, not impairment charges related to Timberland. In March 2023, the decrease in goodwill was due to $394.1 million of impairment charges related to the Supreme reporting unit, not Timberland. Therefore, the statement attributing changes in both years to impairment charges for Timberland is incorrect.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "VFC_10K_2021_35.jpg",
+                "VFC_10K_2023_35.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "The refined product sales volumes increased steadily from 2,703 mbpd in 2018 to 3,536 mbpd in 2023 without any intermediate decline.",
+            "answer": "Refuted",
+            "explanation": "Although overall refined product sales volumes increased from 2,703 mbpd in 2018 to 3,536 mbpd in 2023, the growth was not continuous each year. The year-by-year data are: 2018: 2,703 mbpd; 2019: 3,735 mbpd; 2020: 3,222 mbpd; 2021: 3,425 mbpd; 2022: 3,508 mbpd; 2023: 3,536 mbpd. As shown, after reaching 3,735 mbpd in 2019, the volume fell to 3,222 mbpd in 2020, indicating a clear decline. Therefore, the claim of 'steady increase without any intermediate decline' is incorrect.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "MPC_10K_2020_62.jpg",
+                "MPC_10K_2023_51.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "JPMorgan Chase’s textual disclosures for 2019 and 2020 both highlight management judgments on allowance for credit losses but differ in that the 2020 disclosures emphasize CECL adoption and pandemic-related uncertainty.",
+            "answer": "Supported",
+            "explanation": "JPMorgan Chase’s 2019 10-K emphasizes management judgment in determining the appropriateness of the allowance for credit losses, noting uncertainties tied to macroeconomic and political conditions. The 2020 10-K also highlights management judgment but additionally discloses the adoption of CECL on January 1, 2020 and explicitly discusses uncertainty from the COVID-19 pandemic. This confirms the stated difference.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "JPM_10K_2019_242.jpg",
+                "JPM_10K_2020_59.jpg",
+                "JPM_10K_2020_154.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "In Ford Motor Company’s executive officer disclosures, John Lawler held the title of Chief Financial Officer continuously from 2022 to 2025 without any change in responsibilities.",
+            "answer": "Refuted",
+            "explanation": "In Ford’s 2023 executive officer disclosure (as of February 1, 2023), John Lawler is listed as Chief Financial Officer. In the 2024 disclosure, he remains Chief Financial Officer. However, in the 2025 disclosure, his title changes to Vice Chair and Chief Financial Officer, with the note that he received the additional title of Vice Chair in June 2024. This shows his responsibilities did change, contradicting the statement that he held the CFO role continuously without any change from 2022 to 2025.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "F_10K_2022_36.jpg",
+                "F_10K_2023_41.jpg",
+                "F_10K_2024_42.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "From 2023 to 2024, Intel Products’ total operating income increased while both total cost of sales and operating expenses declined.",
+            "answer": "Supported",
+            "explanation": "Tables/text show operating income rose from $11,337m in 2023 to $13,189m in 2024, while total cost of sales declined from about $24.1b (2023) to $23.8b (2024) and operating expenses fell from about $12.2b (2023) to $11.9b (2024).",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "INTC_10K_2024_19.jpg",
+                "INTC_10K_2024_20.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Axon Enterprise’s retained earnings declined between 2019 and 2024, moving from positive to negative values.",
+            "answer": "Refuted",
+            "explanation": "Axon Enterprise’s retained earnings were $172,265 thousand (positive) in 2019 and increased to $812,014 thousand (still positive) by 2024. The evidence shows retained earnings grew rather than declined to negative values.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2020_48.jpg",
+                "AXON_10K_2024_58.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "At the end of 2024, Tesla, Inc.’s cumulative return significantly exceeded Ford Motor Company, General Motors Company, and Rivian Automotive, Inc.. It was also the only company by 2024 that outperformed its respective benchmark index.",
+            "answer": "Supported",
+            "explanation": "By the end of 2024, Tesla’s cumulative return was well above $1,400 (starting from $100 in 2019), while Ford reached $133, GM $159, and Rivian only $13. Comparing against benchmarks: Ford ($133) and GM ($159) both underperformed the S&P 500 ($197) and Dow Jones Auto Parts 30 ($183). Rivian ($13) underperformed both the NASDAQ Composite ($124) and NASDAQ OMX Global Automobile ($90). Tesla, however, significantly outperformed its benchmark (NASDAQ Composite, which was under $300). Thus, Tesla not only exceeded Ford, GM, and Rivian but was also the only one to beat its index.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "F_10K_2024_43.jpg",
+                "GM_10K_2024_28.jpg",
+                "TSLA_10K_2024_34.jpg",
+                "RIVN_10K_2024_62.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "In Lowe's Companies, Inc.’s annual reports from 2020 to 2024, the company consistently emphasized the importance of private brands for differentiation and customer loyalty, and the listed brand names remained completely unchanged over the three years.",
+            "answer": "Refuted",
+            "explanation": "Across Lowe’s 2020, 2022, and 2024 annual reports, the company consistently emphasized the importance of private brands for enhancing loyalty, differentiation, and value. However, the specific listed brand names changed over time. For example, the 2020 report included brands such as Kobalt, allen+roth, Project Source, and Utilitech. By 2022, new brands such as ORIGIN 21, Style Selections, and Harbor Breeze were added, while the lineup also expanded with STAINMASTER. In 2024, Klein Tools was added to the assortment. This shows that while the strategic emphasis on private brands remained consistent, the actual brand portfolio did not remain unchanged.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LOW_10K_2020_6.jpg",
+                "LOW_10K_2022_6.jpg",
+                "LOW_10K_2024_6.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "In the 2022 backlog disclosures, REV Group, Inc., Oshkosh Corporation, and Blue Bird Corporation all reported their backlog in monetary terms.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that REV Group and Oshkosh reported their backlog in monetary terms ($4.23 billion for REV Group and $14.1 billion for Oshkosh in 2022). However, Blue Bird disclosed its backlog primarily in unit terms (5,000 buses as of October 1, 2022), not in monetary value. Therefore, the statement that all three companies reported backlog in monetary terms is contradicted.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "REVG_10K_2022_48.jpg",
+                "OSK_10K_2022_49.jpg",
+                "BLBD_10K_2022_31.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Wells Fargo had a larger workforce in 2024 than Bank of America, with more than 217,000 active employees compared to Bank of America’s approximately 213,000 employees.",
+            "answer": "Supported",
+            "explanation": "Wells Fargo’s 2024 10-K discloses approximately 217,000 active employees, while Bank of America’s 2024 10-K reports about 213,000 employees.Therefore, Wells Fargo indeed had a larger workforce than Bank of America in 2024.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "WFC_10K_2024_2.jpg",
+                "BAC_10K_2024_4.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "PNC Financial Services Group’s loan-to-deposit ratio was approximately 76% in 2023 and declined in 2024.",
+            "answer": "Supported",
+            "explanation": "In 2023, PNC’s loans totaled 321,508 million while deposits were 421,418 million, giving a loan-to-deposit ratio of about 76.3%. In 2024, loans were 316,467 million and deposits 426,738 million, resulting in a ratio of about 74.2%, showing a decline.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PNC_10K_2024_100.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "In fiscal 2023, Ross Stores, Inc., Dollar General Corporation, and TJX Companies, Inc. all emphasized low-cost operations in their business models, with Ross focusing on centralized procurement and scale, TJX General on small-box convenience, and Dollar on flexible layouts and inventory management.",
+            "answer": "Refuted",
+            "explanation": "The evidence confirms that all three companies emphasized low-cost operations in fiscal 2023, but the specific attributions in the statement are incorrect. Ross Stores focused on centralized procurement, economies of scale, and flexible store layouts and inventory management. TJX Companies emphasized delivering value through below-market brand pricing, broad vendor access, and efficient distribution, rather than small-box convenience. Dollar General’s model centers on small-box formats and neighborhood convenience, supported by scale and limited advertising spend. Therefore, the statement reverses the attributions for TJX and Dollar General, making it inaccurate.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ROST_10K_2023_5.jpg",
+                "DG_10K_2023_5.jpg",
+                "TJX_10K_2023_7.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "According to EOG Resources, Inc., oil prices in the second half of 2020 recovered but still remained significantly below 2019 averages, while Diamondback Energy, Inc. emphasized ongoing downward pressure without mentioning improvement.",
+            "answer": "Refuted",
+            "explanation": "EOG's annual report clearly stated that oil prices recovered in the second half of 2020 but still remained significantly below 2019 averages. In contrast, FANG's annual report emphasized that OPEC+ production cuts helped to improve crude oil prices, while also noting that downward pressure on commodity prices has continued and could continue. Therefore, the statement’s claim that “FANG only emphasized ongoing downward pressure without mentioning improvement” is inconsistent with the evidence; in fact, FANG referred to both price improvement and continued pressure. In summary, the statement is refuted.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "EOG_10K_2020_35.jpg",
+                "FANG_10K_2020_9.jpg",
+                "FANG_10K_2020_40.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "DTE Energy Company increased its renewable energy net generation capacity by more than 1,800 MW between 2019 and 2024.",
+            "answer": "Refuted",
+            "explanation": "The 2019 report shows DTE Energy Company's renewable energy net generation capacity was 764 MW, while the 2024 report shows 1,814 MW. The increase is 1,050 MW, not more than 1,800 MW. Therefore, the statement is refuted by the evidence.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "DTE_10K_2019_14.jpg",
+                "DTE_10K_2024_11.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Constellation Energy Corporation consistently disclosed separation costs from Exelon in its annual reports from 2022 through 2024.",
+            "answer": "Refuted",
+            "explanation": "In Constellation Energy Group’s 2022 and 2023 annual reports, there is a dedicated 'Separation from Exelon' section that clearly discloses separation costs and amounts (such as $140 million in 2022 and $101 million in 2023). However, in the 2024 annual report, this section no longer appears; instead, the focus shifts to acquisitions, clean energy projects, and nuclear production tax credits, with no mention of Exelon separation costs. Therefore, the statement that separation costs were consistently disclosed from 2022 through 2024 is not accurate.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "CEG_10K_2022_53.jpg",
+                "CEG_10K_2023_53.jpg",
+                "CEG_10K_2024_54.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Axon’s competition in connected cameras and digital evidence software primarily consists of less than five companies, with little fragmentation in the industry landscape.",
+            "answer": "Refuted",
+            "explanation": "The evidence lists numerous competitors in connected cameras and digital evidence management, including Motorola, Hikvision, NICE, Oracle, Hytera, and many others. It also explicitly describes the market as highly fragmented and competitive, contradicting the claim of fewer than five competitors and little fragmentation.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2024_6.jpg"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Across 2021 to 2023, NSP System consistently reported the highest share of carbon-free generation compared to PSCo and SPS.",
+            "answer": "Supported",
+            "explanation": "The energy-mix charts show NSP System had the highest carbon-free share each year: 2021—NSP 60% vs PSCo 39% and SPS 40%; 2022—NSP 69% vs PSCo 41% and SPS 39%; 2023—NSP 64% vs PSCo 42% and SPS 37%. Thus, across 2021–2023, NSP consistently led PSCo and SPS in carbon-free generation.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "XEL_10K_2021_10.jpg",
+                "XEL_10K_2022_11.jpg",
+                "XEL_10K_2023_10.jpg"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "In 2021, EOG Resources, Inc. planned to complete approximately 45 wells in the Powder River (35 in 2020), while reducing its Eagle Ford Motor Company plan from 213 wells in 2020 to about 145, indicating a shift of investment focus toward the Rocky Mountain area.",
+            "answer": "Supported",
+            "explanation": "The annual report states that in 2021 EOG expected to complete approximately 45 wells in the Powder River Basin, compared to 35 wells in 2020. It also indicates that in 2020 EOG completed 213 Eagle Ford wells but planned about 145 wells in 2021, showing a reduction. This evidence confirms both the specific well counts and the implied shift of investment focus toward the Rocky Mountain area.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "EOG_10K_2020_5.jpg",
+                "EOG_10K_2020_4.jpg"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "PNC reported consolidated total assets of approximately $426 billion at year-end 2024, which was lower than both Bank of America and M&T Bank’s reported consolidated totals.",
+            "answer": "Refuted",
+            "explanation": "PNC reported $560.0 billion in total assets at December 31, 2024. This is higher than M&T Bank’s $208.1 billion but lower than Bank of America’s multi-trillion-dollar consolidated assets. Therefore, the statement that PNC had approximately $426 billion and was lower than both banks is incorrect.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PNC_10K_2024_50.jpg",
+                "MTB_10K_2024_120.jpg",
+                "BAC_10K_2024_93.jpg"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "In 2024, Harley-Davidson, Inc.’s Harley-Davidson, Inc.’s LiveWire, Blue Bird Corporation, and General Motors Company all mentioned EV expansion in their annual reports, and Blue Bird Corporation disclosed specific EV sales figures, reporting deployment of more than 40,000 electric school buses since 2012.",
+            "answer": "Refuted",
+            "explanation": "All three companies (Harley-Davidson’s LiveWire, Blue Bird, and GM) mentioned EV expansion in their 2024 annual reports. However, Blue Bird disclosed delivering its 2,000th electric school bus in fiscal 2024, not more than 40,000 electric school buses. The 40,000 figure refers to alternative fuel-powered school buses (including propane and gasoline) since 2012, not electric buses. Therefore, the statement misrepresents Blue Bird’s disclosure.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "HOG_10K_2024_8.jpg",
+                "BLBD_10K_2024_7.jpg",
+                "GM_10K_2024_4.jpg"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "Among Pfizer, Zoetis, and Johnson & Johnson in 2024, Johnson & Johnson reported the highest cash and cash equivalents, exceeding the other two companies combined.",
+            "answer": "Supported",
+            "explanation": "In 2024, Johnson & Johnson reported $24,105 million in cash and cash equivalents, while Pfizer reported $1,043 million and Zoetis $1,987 million. Johnson & Johnson’s total exceeded the combined Pfizer and Zoetis figure of $3,030 million.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PFE_10K_2024_59.jpg",
+                "ZTS_10K_2024_60.jpg",
+                "JNJ_10K_2024_51.jpg"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "The 2024 Domino’s risk disclosures indicate that U.S. franchisees are required to purchase food and products exclusively from Company supply chain centers without exception.",
+            "answer": "Refuted",
+            "explanation": "The 2024 Domino’s risk disclosures explicitly state that U.S. franchisees are not required to purchase food and products from the Company and may choose to purchase from outside suppliers, contradicting the claim of exclusivity.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "DPZ_10K_2024_15.jpg"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "Nike, Inc., Deckers Outdoor Corporation, and lululemon athletica inc. all mentioned in their 2024 annual reports collaborating with athletes or consumers for testing or collecting feedback to guide product development.",
+            "answer": "Supported",
+            "explanation": "Nike’s 2024 annual report states that employee athletes and other athletes wear-test and evaluate products during the design and development process. Deckers highlights that its design and development process involves multiple rounds of samples for fit, dynamic or athlete testing, and also relies on consumer insights such as color, trend, material research, and market analysis. Lululemon emphasizes product innovation driven by guest (consumer) needs and insights, citing specific launches and feedback-driven expansions. Together, these confirm that all three companies mentioned collaborating with athletes or consumers for testing or feedback to guide product development.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "NKE_10K_2024_6.jpg",
+                "DECK_10K_2024_8.jpg",
+                "LULU_10K_2024_8.jpg"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "As of 2024, M&T Bank’s Chief Information Security Officer has over 35 years of experience in financial services cybersecurity leadership, similar to the experience described for Fifth Third Bancorp’s CISO.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that M&T Bank’s CISO has over 20 years of experience in information security, while Fifth Third Bancorp’s CISO has over 35 years of experience. Therefore, the claim that M&T’s CISO has over 35 years, similar to Fifth Third, is contradicted by the disclosures.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "MTB_10K_2024_49.jpg",
+                "MTB_10K_2024_50.jpg",
+                "FITB_10K_2024_27.jpg",
+                "FITB_10K_2024_28.jpg"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "In their 2022 disclosures, MercadoLibre, Inc., Amazon.com, Inc., and Coupang, Inc. all emphasized potential risks from third-party payment processors, while eBay Inc. stated that its payment operations were fully internalized and did not rely on external providers.",
+            "answer": "Refuted",
+            "explanation": "In their 2022 disclosures, MercadoLibre, Amazon, and Coupang all highlighted risks related to reliance on third-party payment processors or gateways. MercadoLibre emphasized dependence on financial institutions and external services; Amazon cited reliance on third-party banks and card processors; Coupang clearly stated risks if payment processors are unwilling or unable to provide services or impose onerous terms. eBay, contrary to the statement, also acknowledged reliance on third-party providers for compliance, credit card processing, and payment disbursements, noting risks if such providers fail. Therefore, the claim that eBay had fully internalized payments without reliance on external providers is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "MELI_10K_2022_7.jpg",
+                "EBAY_10K_2022_17.jpg",
+                "CPNG_10K_2022_23.jpg",
+                "AMZN_10K_2022_13.jpg"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "In 2024, Pfizer, Zoetis, and Johnson & Johnson all reported total liabilities exceeding $100,000 million, highlighting their comparable debt burdens.",
+            "answer": "Refuted",
+            "explanation": "In 2024, Pfizer reported total liabilities of $124,899 million and Johnson & Johnson reported $108,614 million, both above $100,000 million. However, Zoetis reported only $9,467 million, far below $100,000 million, so the statement is incorrect.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PFE_10K_2024_59.jpg",
+                "ZTS_10K_2024_60.jpg",
+                "JNJ_10K_2024_51.jpg"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "In fiscal year 2024, Johnson & Johnson and Eli Lilly both disclose significant risks related to counterfeit products undermining patient trust and revenues.",
+            "answer": "Supported",
+            "explanation": "Johnson & Johnson’s 2024 report identifies counterfeit products as a threat to patient safety and revenues, while Eli Lilly’s 2024 report also highlights risks from counterfeit, misbranded, and adulterated medicines impacting trust and financial results. Both disclosures confirm the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "JNJ_10K_2024_17.jpg",
+                "LLY_10K_2024_25.jpg",
+                "LLY_10K_2024_26.jpg"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "Disclosures from Oshkosh Corporation’s 2021 to 2023 annual reports show that the NGDV contract required all vehicles to be battery electric, with no allowance for internal combustion engine models.",
+            "answer": "Refuted",
+            "explanation": "The disclosures from 2021 to 2023 consistently describe the NGDV contract as allowing both zero-emission battery electric vehicles (BEVs) and fuel-efficient internal combustion engine (ICE) vehicles. In 2021, Oshkosh noted that the design includes BEVs and ICEs, with flexibility to convert ICE to BEV in the future. In 2022, it reported that USPS ordered 50,000 vehicles, including 10,019 BEVs, and later anticipated 60,000 units with 45,000 BEVs. In 2023, the order mix was further updated to 35,000 BEVs and 15,000 ICE vehicles. This directly contradicts the claim that all vehicles were required to be battery electric with no allowance for ICE models.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "OSK_10K_2021_10.jpg",
+                "OSK_10K_2022_9.jpg",
+                "OSK_10K_2023_9.jpg"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "General Dynamics Corporation’s cash and equivalents at year-end decreased from $1,913 million in 2023 to $1,697 million in 2024, as shown in the balance sheet and cash flow statement.",
+            "answer": "Supported",
+            "explanation": "The Consolidated Balance Sheet and the Consolidated Statement of Cash Flows both show cash and equivalents at year-end of $1,913 million in 2023 and $1,697 million in 2024, confirming the decrease.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "GD_10K_2024_56.jpg",
+                "GD_10K_2024_57.jpg"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "In 2020, Marathon Petroleum Corporation ceased recording depreciation and amortization for Marathon Petroleum Corporation’s Speedway assets under ASC 360 because Marathon Petroleum Corporation’s Speedway was classified as held for sale and reported separately as discontinued operations.",
+            "answer": "Supported",
+            "explanation": "The evidence states that beginning August 2, 2020, in accordance with ASC 360, MPC ceased recording depreciation and amortization for Speedway’s property, plant, and equipment, finite-lived intangible assets, and right of use lease assets. Speedway was reported as discontinued operations, consistent with being classified as held for sale. This directly supports the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "MPC_10K_2020_61.jpg"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "In fiscal year 2024, Boeing’s total R&D expenditure exceeded the combined R&D expenditures of Honeywell and Axon.",
+            "answer": "Supported",
+            "explanation": "Boeing’s 2024 R&D expenditure was $3,812 million. Honeywell’s was $2,641 million and Axon’s was $442 million, totaling about $3,083 million. Since $3,812M > $3,083M, Boeing’s R&D exceeded the combined total.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2024_47.jpg",
+                "HON_10K_2024_21.jpg",
+                "BA_10K_2024_32.jpg"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "V.F. Corporation reported a $1.0 billion drawdown in short-term borrowings in March 2020, followed by a net repayment of borrowings during March 2021.",
+            "answer": "Supported",
+            "explanation": "The March 2020 balance sheet notes that short-term borrowings increased primarily due to a $1.0 billion drawdown from VF’s $2.25 billion revolving credit facility. The March 2021 balance sheet states there was a decrease in short-term borrowings due to the net repayment of borrowings under the Global Credit Facility. Together, these confirm the statement that VF reported a $1.0 billion drawdown in March 2020 followed by a net repayment in March 2021.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "VFC_10K_2020_37.jpg",
+                "VFC_10K_2021_35.jpg"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "NVIDIA’s gross margin increased from 72.7% in fiscal year 2024 to 75.0% in fiscal year 2025, primarily driven by a higher mix of Data Center revenue.",
+            "answer": "Supported",
+            "explanation": "In the 'Gross Profit and Gross Margin' section, NVIDIA states gross margin rose to 75.0% in FY2025 from 72.7% in FY2024, and explains the increase was primarily driven by a higher mix of Data Center revenue. These figures and the stated cause match the claim.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "NVDA_10K_2025_40.jpg",
+                "NVDA_10K_2025_42.jpg"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "Intel states 2020 revenue growth was primarily offset by declines in notebook and Wi-Fi sales, and gross margin dollars decreased versus 2019.",
+            "answer": "Refuted",
+            "explanation": "Intel’s revenue discussion says 2020 growth was driven by strength in notebook and Wi-Fi sales, not declines. The gross margin table shows gross margin dollars increased from $42.1B in 2019 to $43.6B in 2020, not a decrease.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "INTC_10K_2020_40.jpg",
+                "INTC_10K_2020_41.jpg"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "Capital One’s 2024 sensitivity analysis assumed that negative interest rate scenarios were floored at 0%, consistent with its 2019 assumptions.",
+            "answer": "Refuted",
+            "explanation": "The 2019 disclosure shows that Capital One assumed negative interest rate scenarios would be floored at 0%. However, the 2024 disclosure explicitly states that in jurisdictions with negative policy rates, they do not floor interest rates at 0%. Thus, the 2024 assumption is inconsistent with 2019.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "COF_10K_2019_93.jpg",
+                "COF_10K_2024_115.jpg"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "Boeing’s consolidated cash and cash equivalents increased from $12,691 million in 2023 to $13,801 million in 2024, consistent with the positive cash flow trend reported in its investing activities.",
+            "answer": "Refuted",
+            "explanation": "Boeing’s consolidated cash and cash equivalents did increase from $12,691 million in 2023 to $13,801 million in 2024, as shown in the balance sheet. However, the cash flow statement reports net cash used in investing activities of -$11,973 million in 2024, which is negative, not positive. Thus, the statement is contradicted.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2024_58.jpg",
+                "BA_10K_2024_59.jpg"
+            ]
+        },
+        {
+            "id": 51,
+            "question": "At December 31, 2024, more than 90% of EQT Corporation’s total proved reserves were concentrated in Pennsylvania and West Virginia combined.",
+            "answer": "Supported",
+            "explanation": "EQT reported 15,834 Bcfe in Pennsylvania and 9,527 Bcfe in West Virginia, totaling 25,361 Bcfe out of 26,265 Bcfe overall, representing over 96%, supporting the claim.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "EQT_10K_2024_11.jpg"
+            ]
+        },
+        {
+            "id": 52,
+            "question": "AbbVie’s 2024 annual report confirms that the Inflation Reduction Act will not affect any of AbbVie’s products selected for government pricing programs beginning in 2027.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report states that AbbVie anticipates certain products with substantial revenues could be selected for government pricing under Medicare Part D beginning in 2027, which contradicts the statement that none will be affected.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2024_19.jpg"
+            ]
+        },
+        {
+            "id": 53,
+            "question": "Starbucks attributed the 2020 revenue decline mainly to reduced labor productivity and COVID-19-related costs, while the 2024 margin decline was linked to wage investments and promotional activities.",
+            "answer": "Supported",
+            "explanation": "The 2020 narrative states the revenue decline was due to sales deleverage from reduced labor productivity and additional costs from COVID-19. The 2024 narrative states the margin decline was due to investments in wages/benefits and increased promotional activity, confirming the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "SBUX_10K_2024_42.jpg",
+                "SBUX_10K_2020_32.jpg"
+            ]
+        },
+        {
+            "id": 54,
+            "question": "Both EOG Resources, Inc. and Diamondback Energy, Inc. reported that in 2020 crude oil prices dropped sharply in early March, leading to curtailments and reduced capital budgets.",
+            "answer": "Supported",
+            "explanation": "EOG and FANG both clearly stated in their annual reports that crude oil prices dropped sharply in early March 2020. EOG reported that in response to the 2020 commodity price environment, it reduced operating activity, lowered total capital expenditures, and curtailed production. Similarly, FANG noted that the sharp decline in oil prices in March 2020 led to reduced capital budgets, curtailed short-term production, and lower rig counts. Therefore, both companies confirmed the link between the March 2020 oil price collapse and their subsequent curtailments and reduced capital budgets.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "EOG_10K_2020_35.jpg",
+                "FANG_10K_2020_9.jpg"
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Phillips 66 reported $4.808 billion in operating cash flow in 2020, a 37% decrease compared with 2018, mainly due to reduced distributions from Transportation and NGL businesses.",
+            "answer": "Refuted",
+            "explanation": "The $4.808 billion figure refers to 2019, which was a 37% decrease from 2018. In 2020, operating cash flow was only $2.111 billion, a 56% decline compared with 2019. Moreover, the decrease was driven by lower refining margins and reduced distributions from equity affiliates, partially offset by improved results from Transportation and NGL, contradicting the statement that the decline was mainly due to reduced distributions from Transportation and NGL in 2020.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PSX_10K_2020_51.jpg"
+            ]
+        },
+        {
+            "id": 56,
+            "question": "Axon’s 2020 annual report highlights catastrophic events like pandemics as operational risks, while its 2024 report expands to emphasize negative publicity as a strategic risk.",
+            "answer": "Supported",
+            "explanation": "The 2020 annual report explicitly lists catastrophic events, including the COVID-19 pandemic, as operational risks, while the 2024 annual report introduces negative publicity under strategic risks. This shows that 2024 expanded its risk disclosures beyond those noted in 2020.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2020_14.jpg",
+                "AXON_10K_2024_13.jpg"
+            ]
+        },
+        {
+            "id": 57,
+            "question": "Marathon Petroleum Corporation’s 2020 quarterly financial disclosures show that Marathon Petroleum Corporation’s Speedway results were restated as discontinued operations, thereby affecting the presentation of earnings per share.",
+            "answer": "Supported",
+            "explanation": "The evidence clearly indicates that due to the agreement to sell Speedway, its financial results were reported separately as discontinued operations, and all prior periods were retrospectively adjusted to reflect this change. This means that Speedway’s revenues and profits were removed from continuing operations and disclosed under discontinued operations. The table shows net income (loss) from continuing operations and earnings per share data, both calculated after this reclassification, demonstrating that the discontinued operations treatment directly affected the presentation of earnings per share.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "MPC_10K_2020_163.jpg"
+            ]
+        },
+        {
+            "id": 58,
+            "question": "In fiscal year 2023, Ralph Lauren Corporation’s quarterly dividend was lower than Nike, Inc.’s annual dividend per share but higher than V.F. Corporation’s annual dividend per share.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that in fiscal 2023 Ralph Lauren paid a quarterly dividend of $0.75 per share (annualized $3.00). Nike reported total dividends of $1.36 per share in fiscal 2023 ($1.35 on common stock plus $0.01 on preferred), which is lower than RL’s $3.00 annualized dividend, not higher. VF Corporation declared dividends of $1.81 per share in fiscal 2023, which is also lower than RL’s $0.75 quarterly ($3.00 annualized). Therefore, the statement is incorrect: RL’s dividend was higher than both Nike’s and VF’s, not lower than Nike’s and higher than VF’s.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "RL_10K_2023_126.jpg",
+                "NKE_10K_2023_79.jpg",
+                "VFC_10K_2023_37.jpg"
+            ]
+        },
+        {
+            "id": 59,
+            "question": "In 2019, 2021, and 2023, the negative fair value impact of a 10% commodity price decrease on Dominion Energy, Inc. and its subsidiary Virginia Power’s commodity-based derivative instruments consistently weakened year by year.",
+            "answer": "Refuted",
+            "explanation": "For the parent company Dominion Energy, the negative fair value impact of a hypothetical 10% commodity price decrease was $50 million in 2019, dropped to $16 million in 2021, but then rose again to $62 million in 2023, so it did not weaken year by year. For its subsidiary Virginia Power, the decrease was $54 million in 2019, significantly reduced to $6 million in 2021, but then increased again to $24 million in 2023, also not showing a consistent weakening trend. In summary, both the parent company and the subsidiary showed a decline from 2019 to 2021, but a rebound in 2023, refuting the claim of a year-by-year weakening trend.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "D_10K_2019_67.jpg",
+                "D_10K_2021_78.jpg",
+                "D_10K_2023_85.jpg"
+            ]
+        },
+        {
+            "id": 60,
+            "question": "Bubba’s 33 reported a higher segment margin percentage than Darden’s Fine Dining segment in fiscal 2024.",
+            "answer": "Refuted",
+            "explanation": "In fiscal 2024, Bubba’s 33 reported a segment margin of 15.6%, while Darden’s Fine Dining segment reported 18.7%. Therefore, Bubba’s 33 margin was lower, not higher.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "TXRH_10K_2024_46.jpg",
+                "DRI_10K_2024_37.jpg"
+            ]
+        },
+        {
+            "id": 61,
+            "question": "In their 2021 annual reports, PG&E Corporation, Entergy Corporation, and DTE Energy Company consistently disclosed that extreme weather like high temperatures would generally increase electricity demand, thereby offsetting the financial risks from infrastructure damage.",
+            "answer": "Refuted",
+            "explanation": "In their 2021 annual reports, PG&E and DTE emphasize the negative impacts of extreme weather, such as wildfires, floods, storms, and infrastructure damage, without mentioning offsetting benefits from higher electricity demand. Entergy does note that above-normal summer temperatures may increase electricity demand and revenues from cooling, but it also stresses the risks of winter temperature deviations and extreme weather causing higher costs, operational strain, and reduced reliability. Therefore, the evidence shows that the three companies did not consistently disclose that higher temperatures offset financial risks through increased demand; rather, they highlighted risks as the dominant theme.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "PCG_10K_2021_47.jpg",
+                "ETR_10K_2021_310.jpg",
+                "DTE_10K_2021_23.jpg"
+            ]
+        },
+        {
+            "id": 62,
+            "question": "Oshkosh Corporation’s 2021 to 2023 reports all confirmed that USPS had already committed to purchase 165,000 NGDVs, and the 2023 report disclosed that the company had completed delivery.",
+            "answer": "Refuted",
+            "explanation": "The evidence from Oshkosh Corporation’s 2021–2023 reports does not confirm that USPS had committed to purchase 165,000 NGDVs, nor that deliveries were completed in 2023. The 2021 report specifies that the contract allows for 50,000 to 165,000 units over 10 years, with an initial $482 million order for engineering and production preparation work, rather than a full commitment to 165,000 vehicles. Across the three years of disclosures, the only confirmed commitment was USPS’s first order for 50,000 vehicles in March 2022. The 2023 report further emphasized that USPS may ultimately order fewer units than expected, without indicating any commitment to 165,000 units or that deliveries had been completed. Therefore, the claim that USPS committed to 165,000 vehicles and that Oshkosh completed delivery by 2023 is directly contradicted by the reports.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "OSK_10K_2021_24.jpg",
+                "OSK_10K_2022_23.jpg",
+                "OSK_10K_2023_19.jpg"
+            ]
+        },
+        {
+            "id": 63,
+            "question": "Between 2023 and 2024, Axon Enterprise Inc. reported an increase in total assets that was larger in absolute value than the increase reported by Honeywell International Inc.",
+            "answer": "Refuted",
+            "explanation": "According to the evidence, Axon Enterprise Inc.’s total assets increased from $3,409,174 thousand in 2023 to $4,474,588 thousand in 2024, a rise of $1,065,414 thousand (~$1.07 billion). Honeywell International Inc.’s total assets increased from $61,525 million in 2023 to $75,196 million in 2024, a rise of $13,671 million (~$13.67 billion). Honeywell’s absolute increase was much larger than Axon’s, so the statement is contradicted by the data.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2024_58.jpg",
+                "HON_10K_2024_56.jpg"
+            ]
+        },
+        {
+            "id": 64,
+            "question": "From 2020 to 2024, Duke Energy Corporation’s executive team gradually increased female representation, which reflects a deliberate improvement in gender diversity.",
+            "answer": "Supported",
+            "explanation": "In the 2020 annual report, Duke Energy’s executive team included 2 female executives (Lynn J. Good and Julia S. Janson). By 2022, the number of female executives increased to 3 (Lynn J. Good, Julia S. Janson, and Cynthia S. Lee). In 2024, this number further rose to 4 (Lynn J. Good, Julia S. Janson, Cynthia S. Lee, and Bonnie B. Titone). This shows that between 2020 and 2024, female representation gradually increased, reflecting a deliberate improvement in gender diversity.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "DUK_10K_2020_24.jpg",
+                "DUK_10K_2022_22.jpg",
+                "DUK_10K_2024_21.jpg"
+            ]
+        },
+        {
+            "id": 65,
+            "question": "In 2024, both Pfizer and Zoetis reported treasury stock at cost, but Pfizer’s figure was positive while Zoetis’s figure was negative.",
+            "answer": "Refuted",
+            "explanation": "In 2024, Pfizer reported treasury stock at cost of $(114,763) million and Zoetis reported $(7,445) million. Both figures are negative, not one positive and one negative.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PFE_10K_2024_59.jpg",
+                "ZTS_10K_2024_60.jpg"
+            ]
+        },
+        {
+            "id": 66,
+            "question": "WEC Energy Group, Inc.’s reports show that in 2019, 2021, and 2023, capital expenditures in the non-utility energy infrastructure segment were all related to power generation projects.",
+            "answer": "Supported",
+            "explanation": "In 2019, WEC Energy Group’s non-utility energy infrastructure capital expenditures were primarily related to the construction of the Coyote Ridge natural gas project. In 2021, they were driven by the construction of the Jayhawk project, a power generation facility. In 2023, expenditures in this segment decreased due to lower payments for wastewater treatment system modifications tied to We Power’s ERGS units, which are directly related to power generation facilities. Therefore, in all three years, the expenditures in the non-utility energy infrastructure segment were associated with power generation projects.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "WEC_10K_2019_60.jpg",
+                "WEC_10K_2021_68.jpg",
+                "WEC_10K_2023_73.jpg",
+                "WEC_10K_2023_74.jpg"
+            ]
+        },
+        {
+            "id": 67,
+            "question": "Bank of America’s compensation and benefits expense increased from 2023 to 2024 and represented more than 70 percent of total noninterest expense in 2024.",
+            "answer": "Refuted",
+            "explanation": "Bank of America’s compensation and benefits expense increased from $38.3 billion in 2023 to $40.2 billion in 2024, but it represented 60 percent of total noninterest expense in 2024, not more than 70 percent.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BAC_10K_2024_30.jpg"
+            ]
+        },
+        {
+            "id": 68,
+            "question": "The annual reports of Crocs, Inc. consistently disclose HEYDUDE Brand’s primary manufacturing base as located in Vietnam for all years 2021 through 2024.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that for the HEYDUDE Brand, production was in China, not Vietnam. In the 2022 and 2023 disclosures, HEYDUDE Brand production is stated as being in China, while Crocs Brand production was in Vietnam. Therefore, the claim that HEYDUDE Brand’s primary manufacturing base was consistently in Vietnam for 2021–2024 is contradicted by the reports.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "CROX_10K_2022_10.jpg",
+                "CROX_10K_2024_10.jpg"
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Walmart Inc. and Costco Wholesale Corporation consistently disclosed the adverse impact of inflation on operations in their 2023 reports.",
+            "answer": "Supported",
+            "explanation": "Both Walmart and Costco explicitly discussed the negative impact of inflation in their 2023 annual reports. Walmart highlighted higher than normal inventory levels and increased merchandise costs due to high inflation, affecting net sales and gross profit margins. Costco similarly noted that merchandise costs in 2023 continued to be impacted by inflation, though at a lower rate than in 2022, influencing pricing and gross margin strategies. Therefore, both companies consistently disclosed inflation as an adverse factor on operations in 2023.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "WMT_10K_2023_36.jpg",
+                "COST_10K_2023_21.jpg"
+            ]
+        },
+        {
+            "id": 70,
+            "question": "Johnson & Johnson’s worldwide income before tax increased from $15,062 million in 2023 to $16,687 million in 2024, mainly driven by higher Innovative Medicine segment sales.",
+            "answer": "Refuted",
+            "explanation": "While worldwide income before tax does rise from $15,062 million in 2023 to $16,687 million in 2024, the segment data show that total segment earnings actually decline (from $22,915 million to $22,659 million). The primary driver of the overall increase is the nearly $2 billion reduction in unallocated expenses (e.g., interest, litigation), not higher Innovative Medicine segment sales.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "JNJ_10K_2024_38.jpg"
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Both companies believed that weaker 2019 refining margins were mainly caused by declines in crude prices.",
+            "answer": "Refuted",
+            "explanation": "ExxonMobil’s 2019 text links refining margins to many factors (product vs. crude spreads, global supply/demand, inventories, mandates, political climate) and highlights capacity growth vs. demand—not crude price declines—as key drivers. The Chevron excerpt provides benchmark price trends (Brent ~$64/bbl, WTI ~$57/bbl) but does not state that crude price declines were the main cause of weaker refining margins. Therefore, the claim that both companies mainly blamed crude price declines is not supported by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "XOM_10K_2019_46.jpg",
+                "CVX_10K_2019_30.jpg"
+            ]
+        },
+        {
+            "id": 72,
+            "question": "GE Aerospace’s diluted earnings per share in 2024 decreased compared to 2023, while RTX Corporation’s diluted EPS increased over the same period.",
+            "answer": "Supported",
+            "explanation": "GE Aerospace’s diluted EPS fell from $8.36 in 2023 to $5.99 in 2024, while RTX Corporation’s diluted EPS rose from $2.23 in 2023 to $3.55 in 2024, confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "RTX_10K_2024_69.jpg",
+                "GE_10K_2024_39.jpg"
+            ]
+        },
+        {
+            "id": 73,
+            "question": "From Fiscal 2023 to Fiscal 2025, the share of revenues earned outside the U.S. for Ralph Lauren Corporation increased year by year,, aligning with the company’s continued emphasis on international expansion. This verifies that the company’s strategic narrative is consistent with its financial data.",
+            "answer": "Supported",
+            "explanation": "The evidence shows that revenues earned outside the U.S. increased year by year: 53% in Fiscal 2023, 55% in Fiscal 2024, and 57% in Fiscal 2025. This upward trend directly supports the statement that the share of revenues outside the U.S. rose annually. The accompanying disclosures emphasize international retail, wholesale, and digital commerce strategies in Europe and Asia, confirming that the company’s strategic focus on international expansion aligns with its financial data.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "RL_10K_2023_12.jpg",
+                "RL_10K_2024_11.jpg",
+                "RL_10K_2025_11.jpg"
+            ]
+        },
+        {
+            "id": 74,
+            "question": "Amazon.com, Inc., Walmart Inc., and Costco Wholesale Corporation all disclose recognition of eCommerce or online retail sales revenue only at the point of customer payment, not at delivery or pickup.",
+            "answer": "Refuted",
+            "explanation": "The statement is incorrect because all three companies recognize eCommerce or retail sales revenue at delivery or pickup, not at customer payment. Amazon recognizes revenue upon delivery to a third-party carrier or the customer; Walmart recognizes eCommerce sales revenue upon delivery to the customer; Costco recognizes merchandise revenue when the member picks up merchandise or upon shipment for e-commerce orders. None of the disclosures indicate revenue recognition only at the point of customer payment.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AMZN_10K_2023_43.jpg",
+                "WMT_10K_2023_63.jpg",
+                "COST_10K_2023_46.jpg"
+            ]
+        },
+        {
+            "id": 75,
+            "question": "In 2024 disclosures, both General Motors Company and Blue Bird Corporation identified infrastructure expansion as critical, with General Motors Company highlighting DC fast charging station development while Blue Bird Corporation emphasized the establishment of a new EV production facility.",
+            "answer": "Supported",
+            "explanation": "In the 2024 disclosures, Blue Bird reported opening a new Electric Vehicle Build-Up Center in Fort Valley, Georgia, explicitly highlighting the expansion of EV production facilities. GM emphasized infrastructure expansion through its collaboration with EVgo and other partners to build 2,850 DC fast charging stalls in 2024 and its role in a joint venture aiming to install at least 30,000 charging units. Both companies clearly identified infrastructure expansion as critical, though with different focal points—production capacity for Blue Bird and charging network development for GM.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "BLBD_10K_2024_12.jpg",
+                "GM_10K_2024_4.jpg"
+            ]
+        },
+        {
+            "id": 76,
+            "question": "In its 2024 annual report, Yum China reported having two main reportable segments, KFC and Pizza Hut, while Shake Shack in its 2024 annual report presented performance metrics like same-Shack sales instead of segment reporting.",
+            "answer": "Supported",
+            "explanation": "Yum China’s 2024 annual report explicitly states it has two reportable segments: KFC and Pizza Hut. Shake Shack’s 2024 annual report defines metrics such as same-Shack sales, average unit volume, and system-wide sales, but does not report separate operating segments.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "SHAK_10K_2024_55.jpg",
+                "YUMC_10K_2024_66.jpg"
+            ]
+        },
+        {
+            "id": 77,
+            "question": "General Dynamics Corporation’s consolidated revenue in 2024 increased by more than $5.4 billion compared to 2023, representing growth across all operating segments.",
+            "answer": "Supported",
+            "explanation": "The evidence shows consolidated revenue rose from $42,272 million in 2023 to $47,716 million in 2024, an increase of $5,444 million (greater than $5.4 billion). The text further confirms growth across all operating segments.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "GD_10K_2024_34.jpg",
+                "GD_10K_2024_35.jpg"
+            ]
+        },
+        {
+            "id": 78,
+            "question": "In 2023, both Capital One and Citi assign the Chief Technology Risk Officer (CTRO) the responsibility for implementing enterprise-wide cybersecurity training programs.",
+            "answer": "Refuted",
+            "explanation": "Capital One’s 2023 annual report assigns the Chief Technology Risk Officer (CTRO) responsibility for overseeing cybersecurity risks, but training programs are managed more broadly across the enterprise. Citi’s 2023 disclosures attribute cybersecurity training responsibilities to the Chief Information Security Office rather than the CTRO. Thus, the claim that both companies assign CTROs direct responsibility for implementing enterprise-wide training programs is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "COF_10K_2023_45.jpg",
+                "COF_10K_2023_46.jpg",
+                "C_10K_2023_119.jpg",
+                "C_10K_2023_120.jpg"
+            ]
+        },
+        {
+            "id": 79,
+            "question": "The 2025 annual report indicates that NVIDIA’s acquisition of Mellanox in 2020 contributed to the expansion of its innovation in networking and enabled the launch of its first Tensor Core GPU.",
+            "answer": "Refuted",
+            "explanation": "The evidence states that NVIDIA’s acquisition of Mellanox in 2020 expanded its innovation in networking, but it also notes that the first Tensor Core GPU was introduced in 2017. Therefore, the acquisition could not have enabled the launch of the first Tensor Core GPU.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "NVDA_10K_2025_4.jpg"
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Citigroup’s strategic refresh in 2021 included plans for exiting certain international consumer banking markets, which was subsequently reclassified into Legacy Franchises by 2022.",
+            "answer": "Supported",
+            "explanation": "The 2021 10-K describes a strategic refresh that included planned exits from certain international consumer banking markets. The 2022 10-K then introduced a new reporting structure with 'Legacy Franchises' to capture these exited markets, confirming the linkage between the strategic refresh and the reclassification.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "C_10K_2021_5.jpg",
+                "C_10K_2021_6.jpg",
+                "C_10K_2022_23.jpg"
+            ]
+        },
+        {
+            "id": 81,
+            "question": "In 2024, Domino’s amortization expense for capitalized software exceeded its debt issuance cost amortization by more than $25 million.",
+            "answer": "Supported",
+            "explanation": "The notes show 2024 amortization expense for capitalized software was $31.9 million, while debt issuance cost amortization was $5.3 million. The difference of about $26.6 million is greater than $25 million, confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "DPZ_10K_2024_62.jpg"
+            ]
+        },
+        {
+            "id": 82,
+            "question": "In 2023, Vistra Corp., Constellation Energy Corporation, and NextEra Energy, Inc.’s subsidiaries Florida Power & Light Company and NextEra Energy Resources, LLC all reported natural gas as the largest source of net generating capacity, but the specific proportions differed significantly.",
+            "answer": "Supported",
+            "explanation": "Vistra’s natural gas share was 66%, Constellation’s was about 67% (22,070 MW / 33,094 MW), NextEra Energy, Inc.’s subsidiary Florida Power & Light Company reported 73% natural gas, and NextEra Energy Resources, LLC also showed reliance on natural gas as the primary fuel in its disclosed energy portfolio. All three companies and subsidiaries had natural gas as the largest source, but with different proportions.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "VST_10K_2023_13.jpg",
+                "CEG_10K_2023_11.jpg",
+                "NEE_10K_2023_8.jpg",
+                "NEE_10K_2023_14.jpg"
+            ]
+        },
+        {
+            "id": 83,
+            "question": "NVIDIA’s cash and cash equivalents at the end of fiscal year 2025 were higher than both fiscal years 2024 and 2023 combined.",
+            "answer": "Refuted",
+            "explanation": "The cash and cash equivalents at the end of fiscal year 2025 were $8.589 billion, while fiscal years 2024 and 2023 combined were $10.669 billion ($7.280B + $3.389B). Therefore, 2025 was lower, not higher.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "NVDA_10K_2025_54.jpg",
+                "NVDA_10K_2025_56.jpg"
+            ]
+        },
+        {
+            "id": 84,
+            "question": "Regeneron’s collaboration revenue from Sanofi in 2024 was less than half of the collaboration revenue from Sanofi in 2020.",
+            "answer": "Refuted",
+            "explanation": "Evidence shows Sanofi collaboration revenue was $1,186.4 million in 2020 and $4,531.4 million in 2024. The 2024 figure is nearly four times higher, not less than half of 2020, so the statement is contradicted.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "REGN_10K_2020_79.jpg",
+                "REGN_10K_2024_75.jpg"
+            ]
+        },
+        {
+            "id": 85,
+            "question": "Capital One’s 2023 annual report describes the use of a three lines of defense model for cybersecurity risk management, while Citi’s 2023 report does not mention such a structure.",
+            "answer": "Refuted",
+            "explanation": "Capital One’s 2023 annual report explicitly mentions managing cybersecurity risk using a three lines of defense model. Citi’s 2023 report also describes its cybersecurity risk management program as built on three lines of defense. Therefore, the statement that Citi does not mention such a structure is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "COF_10K_2023_44.jpg",
+                "COF_10K_2023_45.jpg",
+                "C_10K_2023_119.jpg",
+                "C_10K_2023_120.jpg"
+            ]
+        },
+        {
+            "id": 86,
+            "question": "Harley-Davidson, Inc.’s LiveWire was introduced in 2019 as Harley-Davidson, Inc.’s first electric motorcycle and was only established as an independent brand in 2022, while also owning independent manufacturing facilities to produce motorcycles.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that LiveWire was introduced in 2019 as Harley-Davidson’s first electric motorcycle and was established as an independent brand in 2021, not 2022. At the same time, the annual reports clearly state that LiveWire does not have independent manufacturing facilities, with its motorcycles produced and assembled by HDMC. Therefore, the statement is inconsistent with the facts.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "HOG_10K_2019_4.jpg",
+                "HOG_10K_2021_4.jpg",
+                "HOG_10K_2022_7.jpg",
+                "HOG_10K_2022_8.jpg",
+                "HOG_10K_2023_8.jpg"
+            ]
+        },
+        {
+            "id": 87,
+            "question": "Kontoor Brands, Inc.’s strategy disclosure shows that around 80% of Wrangler’s revenue comes from the U.S., indicating limited international diversification; in contrast, Levi Strauss & Co and PVH Corp. emphasize global expansion in their strategies.",
+            "answer": "Refuted",
+            "explanation": "In Kontoor Brands, Inc.’s 2024 strategy disclosure, it explicitly states: 'Approximately 90% of Wrangler® revenues are in the U.S., and thus Wrangler® has many international growth opportunities, particularly in Europe.' This contradicts the statement’s claim of 'around 80%,' as the actual figure is closer to 90%. Meanwhile, Levi Strauss & Co.’s 2024 strategy excerpt emphasizes global expansion, noting plans to 'accelerate our global reach' and strengthen categories worldwide. PVH Corp.’s 2024 PVH+ Plan likewise highlights that the strategy is 'activated in the regions … around the world,' underscoring its focus on global growth for Calvin Klein and Tommy Hilfiger. Therefore, the statement is refuted: Wrangler’s U.S. concentration is misrepresented, though Levi Strauss & Co. and PVH Corp. do emphasize global expansion.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "KTB_10K_2024_6.jpg",
+                "LEVI_10K_2024_9.jpg",
+                "PVH_10K_2024_11.jpg"
+            ]
+        },
+        {
+            "id": 88,
+            "question": "General Dynamics Corporation disclosed that revenue recognition in its defense segment is primarily based on customer acceptance upon delivery of completed aircraft.",
+            "answer": "Refuted",
+            "explanation": "The evidence states that in the defense segment, revenue is recognized over time as work progresses using costs incurred to date relative to total estimated costs at completion, not primarily upon customer acceptance of delivered aircraft.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "GD_10K_2024_33.jpg",
+                "GD_10K_2024_34.jpg"
+            ]
+        },
+        {
+            "id": 89,
+            "question": "In 2023, Xcel Energy Inc.’s total electric sales volume decreased compared to 2022, while total retail revenue increased.",
+            "answer": "Supported",
+            "explanation": "In 2022, Xcel Energy Inc.’s total electric sales volume was 116,885 million kWh with total retail revenues of $12,123 million. In 2023, sales volume decreased to 114,980 million kWh, while total retail revenues increased to $11,446 million. This confirms that sales volume decreased while total retail revenue increased in 2023 compared to 2022.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "XEL_10K_2022_11.jpg",
+                "XEL_10K_2023_10.jpg"
+            ]
+        },
+        {
+            "id": 90,
+            "question": "Dominion Energy, Inc.’s nuclear decommissioning trust fund net investment gains consistently exceeded $1 billion across 2019, 2021, and 2023.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that Dominion Energy’s nuclear decommissioning and rabbi trust fund net investment gains were $1.0 billion in 2019, $1.1 billion in 2021, but only $879 million in 2023. Since the 2023 amount was below $1 billion, the statement that the gains consistently exceeded $1 billion across 2019, 2021, and 2023 is contradicted by the data.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "D_10K_2019_68.jpg",
+                "D_10K_2021_79.jpg",
+                "D_10K_2023_86.jpg"
+            ]
+        },
+        {
+            "id": 91,
+            "question": "In the 2024 annual reports, both Broadcom Inc. and AMD disclosed that the semiconductor industry is highly cyclical and subject to severe downturns.",
+            "answer": "Refuted",
+            "explanation": "AMD’s 2024 risk factors explicitly state: “The semiconductor industry is highly cyclical and has experienced severe downturns.” Broadcom’s 2024 risk factors state only that it operates in the “highly cyclical semiconductor industry,” without mentioning severe downturns. Since the ‘severe downturns’ disclosure is not shown for Broadcom, the claim that both companies disclosed it is not met.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AVGO_10K_2024_17.jpg",
+                "AMD_10K_2024_17.jpg"
+            ]
+        },
+        {
+            "id": 92,
+            "question": "Harley-Davidson, Inc. and REV Group, Inc. both emphasized in their 2023 reports that consumer acceptance of electric vehicles remains uncertain, but Harley-Davidson, Inc. linked this directly to Harley-Davidson, Inc.’s LiveWire limited design and production experience.",
+            "answer": "Supported",
+            "explanation": "Harley-Davidson in its 2023 report emphasized the uncertainty of consumer acceptance of electric vehicles, explicitly linking it to LiveWire’s limited experience in designing, testing, manufacturing, marketing, and selling electric motorcycles, which could lead to delays and unmet customer expectations. Meanwhile, REV Group in its 2023 report also highlighted risks related to changing customer preferences and the uncertainty of acceptance for new technologies such as electric vehicles. This shows that both companies emphasized the uncertainty of consumer acceptance of electric vehicles, while Harley-Davidson directly tied it to LiveWire’s limited experience.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "HOG_10K_2023_13.jpg",
+                "HOG_10K_2023_18.jpg",
+                "REVG_10K_2023_26.jpg"
+            ]
+        },
+        {
+            "id": 93,
+            "question": "Boeing’s Commercial Airplanes backlog increased between 2020 and 2021, but decreased between 2023 and 2024.",
+            "answer": "Supported",
+            "explanation": "The Commercial Airplanes backlog rose from $281,588 million in 2020 to $296,882 million in 2021, showing an increase. It then declined from $440,507 million in 2023 to $435,175 million in 2024, showing a decrease.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2021_33.jpg",
+                "BA_10K_2024_33.jpg"
+            ]
+        },
+        {
+            "id": 94,
+            "question": "The annual report indicates that Boeing experienced no significant disruptions to its commercial aircraft production in 2024 despite labor strikes and supply chain instability.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report (page 9) states that a labor strike in November 2024 halted production of commercial aircraft other than the 787, as well as certain Defense, Space & Security products. It also highlights supply chain instability. This shows Boeing did experience significant production disruptions, contradicting the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2024_11.jpg"
+            ]
+        },
+        {
+            "id": 95,
+            "question": "Based on the 2024 risk factor sections, Shake Shack, Inc. reported that their revenue is substantially derived from operations in China, similar to Yum China Holdings, Inc.",
+            "answer": "Refuted",
+            "explanation": "The 2024 risk factors for Shake Shack, Inc. do not mention any revenue from operations in China, while Yum China Holdings, Inc.'s 2024 risk factors explicitly state that substantially all of their revenue is derived from operations in China. This contradicts the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "YUMC_10K_2024_24.jpg",
+                "YUMC_10K_2024_25.jpg",
+                "SHAK_10K_2024_20.jpg",
+                "SHAK_10K_2024_21.jpg"
+            ]
+        },
+        {
+            "id": 96,
+            "question": "In fiscal 2023, both lululemon athletica inc. and Columbia Sportswear Company disclosed that a substantial portion of their annual operating profit was concentrated in the first half of the year.",
+            "answer": "Refuted",
+            "explanation": "Lululemon’s 2023 disclosure shows that a large share of its operating profit is typically generated in the fourth quarter, not the first half of the year. Columbia’s 2023 disclosure indicates that nearly 80% of its operating income was realized in the second half of the year. Both companies clearly highlight concentration in the latter part of the year, contradicting the statement that operating profit was concentrated in the first half.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "LULU_10K_2023_8.jpg",
+                "COLM_10K_2023_25.jpg"
+            ]
+        },
+        {
+            "id": 97,
+            "question": "In 2024, Lockheed Martin disclosed that subcontractors are exempt from implementing security controls or reporting cybersecurity incidents to the company.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report explicitly requires subcontractors to implement security controls, comply with DFARS, self-report costs to the U.S. Government, and notify Lockheed Martin of cybersecurity incidents. This directly contradicts the claim that subcontractors are exempt.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LMT_10K_2024_22.jpg",
+                "LMT_10K_2024_23.jpg"
+            ]
+        },
+        {
+            "id": 98,
+            "question": "Target Corporation's investments in information technology and other categories remained below $600 million from 2020 to 2024.",
+            "answer": "Refuted",
+            "explanation": "From the capex charts, the segment labeled “Information Technology and Other” is $0.4B in 2020, $0.6B in 2021, $0.6B in 2022, $0.7B in 2023, and $0.6B in 2024. Because this category is equal to or above $600M in 2021–2024 (and exceeds it in 2023), it did not remain below $600M during 2020–2024; only 2020 is below the threshold.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "TGT_10K_2020_25.jpg",
+                "TGT_10K_2021_27.jpg",
+                "TGT_10K_2023_29.jpg",
+                "TGT_10K_2025_34.jpg"
+            ]
+        },
+        {
+            "id": 99,
+            "question": "Between 2019 and 2024, the largest third-party manufacturer for Crocs, Inc. Brand consistently operated in Vietnam and accounted for more than 40% of production share each year.",
+            "answer": "Refuted",
+            "explanation": "In 2019, the largest third-party manufacturer operated in both Vietnam and China, not solely in Vietnam; moreover, in that year and in 2021, its production shares were approximately 38% and 34%, both below 40%. Therefore, the claim that between 2019 and 2024 Crocs Brand’s largest third-party manufacturer consistently operated only in Vietnam and accounted for more than 40% of production each year is not valid.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "CROX_10K_2019_7.jpg",
+                "CROX_10K_2022_10.jpg",
+                "CROX_10K_2024_10.jpg"
+            ]
+        },
+        {
+            "id": 100,
+            "question": "Starbucks’ diluted earnings per share (EPS) fell to $3.31 in fiscal 2024, primarily due to operating margin contraction from 16.3% to 15.0%.",
+            "answer": "Supported",
+            "explanation": "The evidence shows that Starbucks’ diluted EPS declined from $3.58 in fiscal 2023 to $3.31 in fiscal 2024, and the operating margin decreased from 16.3% to 15.0%, indicating the EPS drop was primarily driven by margin contraction.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "SBUX_10K_2024_39.jpg",
+                "SBUX_10K_2024_40.jpg"
+            ]
+        },
+        {
+            "id": 101,
+            "question": "In 2020, Marathon Petroleum Corporation’s Speedway fuel volumes declined significantly, but the increase in per-gallon fuel margin partially offset the overall profitability pressure.",
+            "answer": "Supported",
+            "explanation": "The evidence shows that Speedway’s fuel sales volumes declined from 7,658 million gallons in 2019 to 5,919 million gallons in 2020, indicating a significant decrease. At the same time, Speedway’s fuel margin increased from $0.2434 per gallon in 2019 to $0.3452 per gallon in 2020. The text also states that income increased $399 million primarily due to higher fuel margins, partially offset by lower fuel volumes. This directly supports the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "MPC_10K_2020_61.jpg"
+            ]
+        },
+        {
+            "id": 102,
+            "question": "Regeneron’s disclosures state that in 2020 the company was no longer sharing in losses with Sanofi for Praluent commercialization in the United States.",
+            "answer": "Supported",
+            "explanation": "The narrative states that effective April 1, 2020, Regeneron became solely responsible for the development and commercialization of Praluent in the United States and no longer shared losses with Sanofi, confirming the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "REGN_10K_2020_80.jpg"
+            ]
+        },
+        {
+            "id": 103,
+            "question": "Both lululemon athletica inc. and Nike, Inc. in fiscal 2023 required a minimum of 24 months of store operation before including results in comparable store sales calculations.",
+            "answer": "Refuted",
+            "explanation": "Lululemon requires that stores must have been open for at least 12 full fiscal months, not 24, to be included in comparable store sales. Nike also requires stores to have been open for at least 1 year (12 months), along with conditions regarding changes in square footage and repositioning. Therefore, neither company applies a 24-month requirement, making the statement incorrect.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LULU_10K_2023_33.jpg",
+                "NKE_10K_2023_33.jpg"
+            ]
+        },
+        {
+            "id": 104,
+            "question": "Nike, Inc. and lululemon athletica inc. in fiscal 2023 disclosed that their definitions of comparable store sales are fully standardized across the retail industry and directly comparable to peers.",
+            "answer": "Refuted",
+            "explanation": "The evidence from both Lululemon’s 2023 annual report and Nike’s 2023 annual report explicitly states that their comparable sales (or comparable store sales) measures may not be equivalent or comparable to similarly titled measures reported by other companies. ",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LULU_10K_2023_34.jpg",
+                "NKE_10K_2023_23.jpg"
+            ]
+        },
+        {
+            "id": 105,
+            "question": "Darden Restaurants, Inc. 2024 annual report stated that its insurance premiums were expected to decrease due to lower claims, unlike Texas Roadhouse which anticipated higher costs.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report excerpt for Darden Restaurants, Inc. indicates that insurance premiums and claim costs may increase due to higher claims and decreased insurance availability, not decrease. Texas Roadhouse also cited rising indirect labor-related costs. Therefore, the statement is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "DRI_10K_2024_18.jpg",
+                "TXRH_10K_2024_26.jpg"
+            ]
+        },
+        {
+            "id": 106,
+            "question": "Despite a 2019 environment with Brent averaging about $64/bbl and WTI about $57/bbl, Exxon Mobil Corporation still reported upstream production of 4.0 mboe/d.",
+            "answer": "Supported",
+            "explanation": "ExxonMobil’s 2019 annual report states the Upstream business produced 4.0 million oil-equivalent barrels per day. Chevron’s 2019 annual report shows benchmark averages for the year of about $64/bbl for Brent and about $57/bbl for WTI. Together, these confirm that despite those 2019 price levels, ExxonMobil reported 4.0 mboe/d of upstream production.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "XOM_10K_2019_46.jpg",
+                "CVX_10K_2019_30.jpg"
+            ]
+        },
+        {
+            "id": 107,
+            "question": "The Bank of America Corporation’s disclosures confirm that all subordinated notes issued in 2020 carry floating interest rates only, unlike 2019 which included fixed rates.",
+            "answer": "Refuted",
+            "explanation": "The 2020 evidence shows Bank of America Corporation had subordinated notes with fixed rates of 4.89% and floating rates of 1.15%, while Bank of America, N.A. also had fixed subordinated notes at 6.00%. Thus, not all subordinated notes in 2020 were floating, contradicting the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BAC_10K_2020_139.jpg",
+                "BAC_10K_2020_140.jpg"
+            ]
+        },
+        {
+            "id": 108,
+            "question": "From 2023 to 2024, the increase in Broadcom’s gross margin dollars was larger than AMD’s gross profit increase over the same period.",
+            "answer": "Supported",
+            "explanation": "Broadcom’s gross margin rose from $24,690M in 2023 to $32,509M in 2024 (increase $7,819M). AMD’s gross profit rose from $10,460M in 2023 to $12,725M in 2024 (increase $2,265M). Thus, Broadcom’s increase was larger.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AVGO_10K_2024_43.jpg",
+                "AMD_10K_2024_51.jpg"
+            ]
+        },
+        {
+            "id": 109,
+            "question": "Between 2018 and 2022, tax-exempt interest consistently reduced Truist Financial Corporation’s provision for income taxes by more than 2% of income before taxes each year.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows tax-exempt interest reduced the provision by (2.2%) in 2018, but only (1.6%) in 2022. Since the reduction was not consistently more than 2% each year between 2018 and 2022, the statement is contradicted.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "TFC_10K_2024_137.jpg",
+                "TFC_10K_2019_122.jpg"
+            ]
+        },
+        {
+            "id": 110,
+            "question": "In 2020, Phillips 66 reduced shareholder return measures due to the COVID-19 pandemic, including suspending its share repurchase program and lowering dividends to less than $2.0 billion.",
+            "answer": "Supported",
+            "explanation": "The annual report explicitly states that the company suspended its share repurchase program in 2020 and paid $1.6 billion in dividends, which is a clear reduction in shareholder returns.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PSX_10K_2020_38.jpg"
+            ]
+        },
+        {
+            "id": 111,
+            "question": "AbbVie’s estimated impact of a 10% appreciation of hedged currencies increased from $942 million in 2019 to $1.5 billion in 2024 according to its annual risk disclosures.",
+            "answer": "Supported",
+            "explanation": "The 2019 annual report states that a 10% appreciation would decrease the fair value of foreign exchange forward contracts by $942 million, while the 2024 annual report states the decrease would be $1.5 billion. This confirms the statement that the estimated impact increased from 2019 to 2024.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2019_45.jpg",
+                "ABBV_10K_2024_52.jpg"
+            ]
+        },
+        {
+            "id": 112,
+            "question": "In their 2024 annual report energy-related disclosures, Lucid Group, Inc. highlighted the integration of energy storage products and solar systems, while Tesla, Inc. emphasized the application of bi-directional charging technology, showing that both companies view energy expansion as a strategic priority.",
+            "answer": "Refuted",
+            "explanation": "Based on the annual report excerpts, Lucid emphasized bi-directional charging technology through its Wunderbox system, while Tesla focused on energy storage products and solar energy systems. The statement incorrectly swaps their focuses, so it is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "LCID_10K_2024_11.jpg",
+                "TSLA_10K_2024_7.jpg"
+            ]
+        },
+        {
+            "id": 113,
+            "question": "Capital One and Citigroup both completed major acquisitions in 2024, with Capital One acquiring Discover and Citigroup finalizing the purchase of a European retail bank.",
+            "answer": "Refuted",
+            "explanation": "Evidence confirms that Capital One entered into a merger agreement to acquire Discover in 2024. However, Citigroup’s 2024 filings emphasize divestitures and preparation for an IPO of its Mexico Consumer/SBMM operations, with no disclosure of any acquisition of a European retail bank. Therefore, the part of the statement concerning Citigroup is incorrect, making the overall statement refuted.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "C_10K_2024_7.jpg",
+                "COF_10K_2024_5.jpg"
+            ]
+        },
+        {
+            "id": 114,
+            "question": "Between 2019 and 2024, Boeing reported net income attributable to shareholders in at least one fiscal year.",
+            "answer": "Refuted",
+            "explanation": "The evidence from Boeing’s Consolidated Statements of Operations (2019–2024) shows that 'Net loss attributable to Boeing Shareholders' is negative in every year: 2019 (-$636m), 2020 (-$11,873m), 2021 (-$4,202m), 2022 (-$4,935m), 2023 (-$2,222m), and 2024 (-$11,817m). Therefore, Boeing did not report net income attributable to shareholders in any year during this period.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2021_60.jpg",
+                "BA_10K_2024_56.jpg"
+            ]
+        },
+        {
+            "id": 115,
+            "question": "Domino’s Pizza reported total capitalized software of $155,025 thousand in 2024, which included $51.9 million not yet placed in service by December 29, 2024.",
+            "answer": "Supported",
+            "explanation": "The consolidated balance sheet for 2024 reports total capitalized software net at $155,025 thousand. The accompanying note states that as of December 29, 2024, the company had $51.9 million of capitalized software not yet placed in service. Together, these disclosures confirm the statement.",
+            "subtype": "Numerical and Textual Fact Verify",
+            "evidence_pages": [
+                "DPZ_10K_2024_55.jpg",
+                "DPZ_10K_2024_62.jpg"
+            ]
+        },
+        {
+            "id": 116,
+            "question": "Both EOG Resources, Inc. and Diamondback Energy, Inc. attributed the 2020 oil price collapse to OPEC+ actions and COVID-19, and EOG Resources, Inc. further noted that although prices recovered in the second half, they remained significantly below 2019 averages.",
+            "answer": "Supported",
+            "explanation": "In its annual report, EOG stated that in early 2020, due to the failure of OPEC+ members to reach a production cut agreement, combined with the impact of COVID-19, crude oil prices dropped sharply in March and April. Although subsequent production cut agreements and supply rebalancing supported a recovery in the second half of the year, the company specifically emphasized that prices still remained significantly below 2019 averages. FANG also noted in its annual report that the 2020 oil price decline was primarily caused by OPEC+ actions and the COVID-19 pandemic, which reduced global demand and increased financial market volatility. Both companies attributed the collapse in oil prices to the same factors, while EOG further highlighted that although prices recovered in the second half, they did not reach 2019 levels. Therefore, the statement is fully supported.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "EOG_10K_2020_35.jpg",
+                "FANG_10K_2020_9.jpg"
+            ]
+        },
+        {
+            "id": 117,
+            "question": "Johnson & Johnson’s total assets in 2024 exceeded Eli Lilly’s by more than $100 billion, highlighting a significant difference in balance sheet scale between the two companies.",
+            "answer": "Supported",
+            "explanation": "Johnson & Johnson reported total assets of $180,104 million in 2024, while Eli Lilly reported $78,714.9 million. The difference is over $101 billion, confirming that Johnson & Johnson’s assets exceeded Eli Lilly’s by more than $100 billion.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "JNJ_10K_2024_51.jpg",
+                "LLY_10K_2024_60.jpg"
+            ]
+        },
+        {
+            "id": 118,
+            "question": "Between 2020 and 2024, Duke Energy Corporation’s executive leadership team added younger executives, while retaining Lynn J. Good as CEO, indicating that the company maintained leadership continuity while preparing successors.",
+            "answer": "Supported",
+            "explanation": "The evidence from Duke Energy’s 2020, 2022, and 2024 annual reports confirms that Lynn J. Good remained CEO throughout this period, demonstrating leadership continuity. At the same time, younger executives such as Brian D. Savoy (age 47 in 2022, 49 in 2024), Louis E. Renjel (age 49 in 2022, 51 in 2024), and Bonnie B. Titone (age 51 in 2024) joined the leadership team, indicating that the company added younger members while retaining experienced leaders. This supports the claim of continuity combined with succession preparation.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "DUK_10K_2020_24.jpg",
+                "DUK_10K_2022_22.jpg",
+                "DUK_10K_2024_21.jpg"
+            ]
+        },
+        {
+            "id": 119,
+            "question": "Eli Lilly’s 2024 revenue growth outside the U.S. was 19%, while Bristol-Myers Squibb’s international revenues increased by only 1% during the same period.",
+            "answer": "Supported",
+            "explanation": "Eli Lilly’s outside U.S. revenue grew from $12,333.1 million in 2023 to $14,667.5 million in 2024, a 19% increase. Bristol-Myers Squibb’s international revenue rose from $13,097 million in 2023 to $13,199 million in 2024, a 1% increase. The statement matches both companies’ reported figures.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BMY_10K_2024_48.jpg",
+                "LLY_10K_2024_48.jpg"
+            ]
+        },
+        {
+            "id": 120,
+            "question": "In both 2019 and 2024, Bank of America’s liquidity risk management framework emphasized decentralization, with each line of business managing liquidity independently under both expected and stressed conditions.",
+            "answer": "Refuted",
+            "explanation": "Bank of America’s annual report disclosures for both 2019 and 2024 describe a centralized approach to funding and liquidity management, which enhances monitoring, maximizes access to funding, and supports timely responses. Neither year indicates a decentralized framework or independent liquidity management by business lines.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "BAC_10K_2019_53.jpg",
+                "BAC_10K_2024_53.jpg"
+            ]
+        },
+        {
+            "id": 121,
+            "question": "In 2024, Regeneron’s selling, general, and administrative expenses were primarily impacted by lower commercialization-related spending and decreased stock-based compensation costs.",
+            "answer": "Refuted",
+            "explanation": "The evidence states that selling, general, and administrative expenses increased in 2024 compared to 2023 due to higher commercialization-related expenses and higher stock-based compensation ($355.0 million in 2024 vs $307.1 million in 2023). This directly contradicts the claim of lower commercialization-related spending and decreased stock-based compensation costs.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "REGN_10K_2024_78.jpg",
+                "REGN_10K_2024_80.jpg"
+            ]
+        },
+        {
+            "id": 122,
+            "question": "The effective tax rate of Bank of America Corporation, calculated as income tax expense divided by income before income taxes, was lowest in 2023 compared to 2022 and 2024.",
+            "answer": "Supported",
+            "explanation": "In 2022, the effective tax rate was 3,441/30,969 ≈ 11.1%. In 2023, it was 1,827/28,342 ≈ 6.4%. In 2024, it was 2,122/29,254 ≈ 7.3%. The lowest rate occurred in 2023, confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BAC_10K_2024_92.jpg"
+            ]
+        },
+        {
+            "id": 123,
+            "question": "Equity Markets revenue of Citigroup, Inc. in 2024 grew by more than 25% year-over-year, driven partly by higher volatility and client activity levels.",
+            "answer": "Supported",
+            "explanation": "Equity Markets revenue increased from $4,037m in 2023 to $5,086m in 2024, a 26% year-over-year growth. The accompanying text confirms this growth was driven by higher volatility and increased client activity levels.",
+            "subtype": "Numerical and Textual Fact Verify",
+            "evidence_pages": [
+                "C_10K_2024_21.jpg",
+                "C_10K_2024_22.jpg"
+            ]
+        },
+        {
+            "id": 124,
+            "question": "Eli Lilly’s 2024 annual report specified that its CISO had more than twenty-five years of cybersecurity experience, whereas Johnson & Johnson did not disclose such tenure detail.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report of Johnson & Johnson explicitly states that its CISO has over twenty-five years of experience in information security. Eli Lilly’s report discusses CISO responsibilities but does not mention years of experience. Therefore, the statement is contradicted by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "JNJ_10K_2024_24.jpg",
+                "LLY_10K_2024_38.jpg"
+            ]
+        },
+        {
+            "id": 125,
+            "question": "In 2022, REV Group, Inc., Oshkosh Corporation, and Blue Bird Corporation all stated that their backlog included government-related contracts.",
+            "answer": "Refuted",
+            "explanation": "REV Group, Inc. disclosed that its backlog may include orders from federal, state, and local government bodies, and Oshkosh Corporation also indicated in its backlog definition and disclosure that it contains Department of Defense contracts. However, Blue Bird Corporation’s disclosures only discussed the size of its backlog, the impact of supply chain disruptions, and rising costs on backlog, without stating that it included government-related contracts. Therefore, the claim that all three companies in 2022 stated their backlog included government-related contracts is incorrect.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "REVG_10K_2022_26.jpg",
+                "OSK_10K_2022_50.jpg",
+                "BLBD_10K_2022_31.jpg"
+            ]
+        },
+        {
+            "id": 126,
+            "question": " In Intel's 2024 annual report, Apple is identified as a direct competitor in both the Client Computing Group and the Data Center and AI segment.",
+            "answer": "Refuted",
+            "explanation": "The CCG section lists Apple (with its M series) as a competitor, but the DCAI section names competitors like AMD, NVIDIA, custom-silicon companies, and ARM/RISC-V ecosystem entrants without mentioning Apple. Therefore, Apple is not identified as a competitor in both segments.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "INTC_10K_2024_16.jpg",
+                "INTC_10K_2024_17.jpg"
+            ]
+        },
+        {
+            "id": 127,
+            "question": "Starbucks’s 2020 and 2024 annual reports both cite the Global Coffee Alliance as a factor affecting Channel Development revenues, but only the 2024 report mentions product SKU optimization.",
+            "answer": "Supported",
+            "explanation": "The 2020 Starbucks report mentions the Global Coffee Alliance but not SKU optimization, while the 2024 Starbucks report mentions both the Global Coffee Alliance and product SKU optimization, supporting the statement.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "SBUX_10K_2020_34.jpg",
+                "SBUX_10K_2024_44.jpg"
+            ]
+        },
+        {
+            "id": 128,
+            "question": "Darden Restaurants’ total assets increased from less than $6 billion in fiscal 2019 to over $11 billion in fiscal 2024.",
+            "answer": "Supported",
+            "explanation": "The evidence shows Darden Restaurants had total assets of $5,892.8 million in fiscal 2019 (less than $6 billion) and $11,323.0 million in fiscal 2024 (over $11 billion), confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "DRI_10K_2024_51.jpg",
+                "DRI_10K_2020_55.jpg"
+            ]
+        },
+        {
+            "id": 129,
+            "question": "The shareholder total return target ranges disclosed in Xcel Energy Inc.’s 2020, 2022, and 2024 annual reports indicate a more optimistic outlook on future profitability in 2024.",
+            "answer": "Supported",
+            "explanation": "In the 2020 and 2022 annual reports, Xcel Energy disclosed a shareholder total return target range of 8%–10%. In the 2024 annual report, this target range was raised to 9%–11%. This increase indicates that the company had a more optimistic outlook on future profitability and investment returns in 2024, so the statement is supported.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "XEL_10K_2020_6.jpg",
+                "XEL_10K_2022_6.jpg",
+                "XEL_10K_2024_7.jpg"
+            ]
+        },
+        {
+            "id": 130,
+            "question": "Nike, Inc.’s revenue growth rate from 2020 to 2023 accelerated year by year, indicating strengthening sales momentum.",
+            "answer": "Refuted",
+            "explanation": "Evidence shows that Nike’s revenue growth from 2020 to 2023 did not accelerate year by year. In fiscal 2020, revenue was $37.4 billion, a year-over-year decline; in fiscal 2021, revenue recovered to $44.5 billion, representing 19% growth; by fiscal 2023, Nike reported actual revenue of $51.2 billion, up 10% year-over-year, or 16% on a currency-neutral basis. The 2023 annual report also noted that growth had slowed compared to prior years due to higher product costs, increased markdowns, and unfavorable foreign exchange impacts. This indicates that growth momentum did not continuously accelerate but instead weakened in 2023.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "NKE_10K_2020_29.jpg",
+                "NKE_10K_2021_30.jpg",
+                "NKE_10K_2023_31.jpg"
+            ]
+        },
+        {
+            "id": 131,
+            "question": "In all annual reports from 2020 to 2022, CVS Health Corporation stated that it had the capacity to provide COVID-19 diagnostic testing at more than 4,000 pharmacy locations.",
+            "answer": "Supported",
+            "explanation": "All three annual reports disclosed that CVS provided COVID-19 diagnostic testing at more than 4,000 pharmacy locations: over 4,000 in 2020, over 4,800 in 2021, and over 4,700 in 2022. Although the specific figures vary, each year’s disclosure exceeds 4,000, so the statement is supported.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "CVS_10K_2020_4.jpg",
+                "CVS_10K_2021_4.jpg",
+                "CVS_10K_2022_4.jpg"
+            ]
+        },
+        {
+            "id": 132,
+            "question": "The Johnson & Johnson annual report confirms that cardiovascular and metabolism product sales in 2024 increased by 3.0%, reversing the prior year’s decline.",
+            "answer": "Refuted",
+            "explanation": "The evidence shows that cardiovascular/metabolism/other product sales in 2024 decreased by 3.0%, not increased. The decline was attributed to reductions in 'Other' products, so the statement is contradicted.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "JNJ_10K_2024_32.jpg",
+                "JNJ_10K_2024_33.jpg"
+            ]
+        },
+        {
+            "id": 133,
+            "question": "In their 2024 annual reports, both JPMorgan Chase and Bank of America highlighted employee engagement survey participation rates, with Bank of America reporting 87% and JPMorgan Chase reporting over 90%.",
+            "answer": "Insufficient",
+            "explanation": "Bank of America’s 2024 annual report explicitly reported an 87% employee engagement survey participation rate. However, the JPMorgan Chase 2024 10-K does not provide specific engagement survey participation figures. Therefore, there is insufficient evidence to confirm or refute the claim that JPMorgan Chase reported over 90%.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "BAC_10K_2024_5.jpg"
+            ]
+        },
+        {
+            "id": 134,
+            "question": "Phillips 66’s 2020 disclosures show that the pandemic-driven decline in crude oil and refined product prices negatively affected not only refining but also midstream, chemicals, and marketing businesses.",
+            "answer": "Supported",
+            "explanation": "The risk disclosure notes that falling oil prices and demand reductions negatively impacted refining, chemicals, midstream, and marketing operations, confirming the broad scope of the pandemic’s impact.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "PSX_10K_2020_23.jpg"
+            ]
+        },
+        {
+            "id": 135,
+            "question": "GE Aerospace’s 2023 cash and cash equivalents were lower than RTX Corporation’s 2023 figure.",
+            "answer": "Refuted",
+            "explanation": "GE Aerospace reported cash and cash equivalents of $15,204 million in 2023, while RTX Corporation reported $6,587 million for the same year. GE's figure is higher than RTX's, so the statement is contradicted by the evidence.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "RTX_10K_2024_71.jpg",
+                "GE_10K_2024_40.jpg"
+            ]
+        },
+        {
+            "id": 136,
+            "question": "AbbVie’s 2025 strategic objectives include discontinuing key product investments such as Rinvoq and Skyrizi in order to reallocate funds toward oncology innovation.",
+            "answer": "Refuted",
+            "explanation": "The 2025 strategic objectives explicitly include maximizing revenue growth of key on-market products such as Rinvoq and Skyrizi. There is no mention of discontinuing these products; instead, AbbVie plans continued investment. Thus, the statement contradicts the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2024_37.jpg"
+            ]
+        },
+        {
+            "id": 137,
+            "question": "In both 2021 and 2024, Boeing’s Defense, Space & Security research and development expenses exceeded $900 million.",
+            "answer": "Refuted",
+            "explanation": "In 2021, Defense, Space & Security R&D expenses were $818 million, which is below $900 million. In 2024, they were $917 million, exceeding $900 million. Thus, the claim that both years exceeded $900 million is incorrect.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2021_32.jpg",
+                "BA_10K_2024_32.jpg"
+            ]
+        },
+        {
+            "id": 138,
+            "question": "Research and development expenses of Pfizer, Inc. rose slightly in 2024 compared to 2023, with the text citing Seagen-related spending increases partially offset by cost realignment savings.",
+            "answer": "Supported",
+            "explanation": "The table shows R&D expenses increased from $10,679 million in 2023 to $10,822 million in 2024 (+$143 million). The text explains this rise was mainly due to $1.1 billion spending on Seagen-related candidates and $680 million in higher compensation, partially offset by $1.6 billion in savings from cost realignment.",
+            "subtype": "Numerical and Textual Fact Verify",
+            "evidence_pages": [
+                "PFE_10K_2024_43.jpg",
+                "PFE_10K_2024_44.jpg"
+            ]
+        },
+        {
+            "id": 139,
+            "question": "In terms of the breadth of competitor categories listed, AutoZone, Inc. covers the widest; O’Reilly Automotive, Inc. follows with five bullet categories; Copart, Inc. is the narrowest, focusing on auctioneers and dismantlers.",
+            "answer": "Supported",
+            "explanation": "AutoZone, Inc. describes a very broad set of competitors spanning national/regional/local parts chains, independently owned parts stores, online marketplaces, wholesale distributors, jobbers, repair shops, car washes and auto dealers, plus many general retailers (discount/mass merchandise, hardware, supermarkets, drugstores, convenience stores, home stores and others), indicating the widest breadth. O’Reilly Automotive, Inc. presents exactly five bullet categories (national chains; regional chains; wholesalers/jobbers; automobile dealers; mass merchandisers and online retailers), placing it in the middle. Copart, Inc. states its principal competitors are vehicle auction and sales companies and vehicle dismantlers (with examples like Ritchie Bros., IAA, Manheim, ACV and LKQ), showing the narrowest focus centered on auctioneers and dismantlers.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AZO_10K_2023_10.jpg",
+                "CPRT_10K_2023_13.jpg",
+                "ORLY_10K_2023_14.jpg"
+            ]
+        },
+        {
+            "id": 140,
+            "question": "Between 2019 and 2023, NSP-Wisconsin’s total assets grew faster than SPS’s, both subsidiaries of Xcel Energy Inc., indicating that NSP-Wisconsin experienced a more rapid asset expansion.",
+            "answer": "Supported",
+            "explanation": "The statement is supported by comparing the relative growth rates of total assets between 2019 and 2023. NSP-Wisconsin's total assets grew from $1.7 billion in 2019 to $3.7 billion in 2023, representing a growth rate of approximately 117.6%. Over the same period, SPS’s total assets grew from $4.9 billion to $9.9 billion in 2023, representing a growth rate of approximately 102.0%. Since 117.6% is greater than 102.0%, NSP-Wisconsin’s total assets grew faster in relative terms, supporting the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "XEL_10K_2019_8.jpg",
+                "XEL_10K_2021_9.jpg",
+                "XEL_10K_2023_9.jpg"
+            ]
+        },
+        {
+            "id": 141,
+            "question": "In both 2022 and 2018, AbbVie reported dividends paid exceeding $10,000 million under financing activities.",
+            "answer": "Refuted",
+            "explanation": "The 2024 Form 10-K shows dividends paid of $10,043 million in 2022, which exceeds $10,000 million. However, the 2019 Form 10-K shows dividends paid of only $5,580 million in 2018, which is below $10,000 million. Therefore, the statement is contradicted by the evidence.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2019_51.jpg",
+                "ABBV_10K_2024_58.jpg"
+            ]
+        },
+        {
+            "id": 142,
+            "question": "AbbVie’s cybersecurity program in 2024 relied exclusively on internal resources and did not engage third-party advisors for assessments.",
+            "answer": "Refuted",
+            "explanation": "The 2024 Form 10-K states that AbbVie relies in part on third parties, including assessors, consultants, and advisors, in connection with its processes for assessing and managing cyber risks, and it periodically engages third-party advisors to assess its cybersecurity program. This contradicts the claim of exclusive reliance on internal resources.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2024_28.jpg",
+                "ABBV_10K_2024_29.jpg"
+            ]
+        },
+        {
+            "id": 143,
+            "question": "Based on the 2024 annual report risk factors, Starbucks anticipates that the costs of opening new stores have consistently declined in recent years due to lower labor and material costs.",
+            "answer": "Refuted",
+            "explanation": "The 2024 annual report risk factors state that in recent years the costs of opening new stores have increased due to construction labor inflation and increased costs of materials and equipment, which directly contradicts the claim that costs have consistently declined.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "SBUX_10K_2024_20.jpg"
+            ]
+        },
+        {
+            "id": 144,
+            "question": "Between fiscal year 2022 and 2024, Fifth Third Bancorp reduced its full-time equivalent employees by more than 700.",
+            "answer": "Supported",
+            "explanation": "The 2022 annual report shows Fifth Third Bancorp had 19,319 full-time equivalent employees, while the 2024 report shows 18,616 employees. This represents a reduction of 703 employees, which is more than 700, confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "FITB_10K_2022_4.jpg",
+                "FITB_10K_2024_4.jpg"
+            ]
+        },
+        {
+            "id": 145,
+            "question": "Truist Financial Corporation’s total number of offices decreased consistently from 2019 through 2021, reflecting integration efficiencies after the SunTrust merger",
+            "answer": "Supported",
+            "explanation": "The 10-K reports show Truist had 2,958 offices in 2019, 2,781 in 2020, and 2,517 in 2021, confirming a consistent decline each year following the SunTrust merger.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "TFC_10K_2019_8.jpg",
+                "TFC_10K_2020_51.jpg",
+                "TFC_10K_2021_50.jpg"
+            ]
+        },
+        {
+            "id": 146,
+            "question": "Boeing’s BCA backlog declined in 2024 compared to 2023, while cumulative deliveries across all airplane programs also decreased in the same year.",
+            "answer": "Supported",
+            "explanation": "The evidence shows BCA backlog decreased from $440,507 million in 2023 to $435,175 million in 2024. Deliveries also declined from 528 in 2023 to 348 in 2024 across all airplane programs. Both parts of the statement are confirmed.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "BA_10K_2024_35.jpg",
+                "BA_10K_2024_36.jpg"
+            ]
+        },
+        {
+            "id": 147,
+            "question": "Capital One’s 2023 annual report states that loans intended for sale are classified at amortized cost, while Citi’s 2023 report classifies them at fair value through earnings.",
+            "answer": "Refuted",
+            "explanation": "Capital One’s 2023 annual report states that loans held for sale are measured at the lower of cost or fair value, not amortized cost. Citi’s 2023 annual report confirms that loans held for sale, such as prime mortgage conforming loans, are classified at fair value with changes recorded in Other revenue. Therefore, the statement is incorrect for Capital One.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "COF_10K_2023_137.jpg",
+                "COF_10K_2023_138.jpg",
+                "C_10K_2023_153.jpg",
+                "C_10K_2023_154.jpg"
+            ]
+        },
+        {
+            "id": 148,
+            "question": "American Electric Power, Constellation Energy Corporation, and Entergy Corporation all disclosed in 2023 that their nuclear decommissioning cost estimates are significantly affected by cost escalation and regulatory uncertainties.",
+            "answer": "Supported",
+            "explanation": "All three companies highlight cost escalation and regulatory uncertainties as significant influences on nuclear decommissioning cost estimates in their 2023 annual reports. American Electric Power notes uncertainties from cost escalation, regulatory developments, and disposal availability in Cook Plant decommissioning. Constellation Energy Corporation emphasizes the absence of permanent SNF disposal facilities in the U.S. and the reliance on interim storage, pointing to regulatory uncertainty affecting decommissioning costs. Entergy Corporation explicitly identifies cost escalation factors (e.g., inflation and changes in assumptions) and evolving regulations as major drivers of variability in decommissioning liability estimates. Therefore, the statement is fully confirmed by the evidence.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "AEP_10K_2023_22.jpg",
+                "CEG_10K_2023_31.jpg",
+                "ETR_10K_2023_42.jpg"
+            ]
+        },
+        {
+            "id": 149,
+            "question": "Starbucks reduced its long-term debt by more than $2 billion between fiscal 2020 and fiscal 2024.",
+            "answer": "Refuted",
+            "explanation": "According to the balance sheet data, Starbucks' long-term debt decreased from $14,659.6 million in 2020 to $14,319.5 million in 2024, a reduction of only about $340.1 million, which is far less than the claimed reduction of more than $2 billion.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "SBUX_10K_2020_52.jpg",
+                "SBUX_10K_2024_55.jpg"
+            ]
+        },
+        {
+            "id": 150,
+            "question": "The effective income tax rate for fiscal 2024 of Darden Restaurants increased compared to fiscal 2023, consistent with the management discussion on income taxes.",
+            "answer": "Supported",
+            "explanation": "The effective income tax rate rose from 12.2% in fiscal 2023 to 12.3% in fiscal 2024, and the management discussion explicitly notes this change, confirming the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "DRI_10K_2024_34.jpg",
+                "DRI_10K_2024_36.jpg"
+            ]
+        },
+        {
+            "id": 151,
+            "question": "AbbVie’s international Humira revenues increased in 2024 compared to 2023, mainly driven by continued impact of direct biosimilar competition.",
+            "answer": "Refuted",
+            "explanation": "Table shows Humira international revenues fell from $2,244 million in 2023 to $1,851 million in 2024 (−17.5%). The narrative also states international Humira revenues decreased 13% in 2024 due to continued direct biosimilar competition. Therefore, the claim of an increase is contradicted by the evidence.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "ABBV_10K_2024_42.jpg",
+                "ABBV_10K_2024_43.jpg"
+            ]
+        },
+        {
+            "id": 152,
+            "question": "Axon Enterprise’s net income margin in 2024 exceeded that in 2023 despite a decline in gross margin percentage.",
+            "answer": "Supported",
+            "explanation": "In 2024, Axon Enterprise’s net income margin was 18.1% compared to 11.3% in 2023, while gross margin declined from 61.2% in 2023 to 59.6% in 2024. This confirms the statement.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "AXON_10K_2024_44.jpg"
+            ]
+        },
+        {
+            "id": 153,
+            "question": "In 2020, Phillips 66 added approximately $8.0 billion of liquidity reserves through debt financing and available cash to cope with pandemic-related challenges.",
+            "answer": "Refuted",
+            "explanation": "In 2020, Phillips 66’s annual report disclosed that the company issued $3.75 billion of senior unsecured notes and borrowed a net $0.5 billion under a term loan facility, for a total of about $4.25 billion in new debt financing. At the same time, the company ended the year with $2.5 billion in cash and cash equivalents and approximately $5.3 billion of available credit capacity, amounting to about $7.8 billion of year-end accessible liquidity. However, two key issues arise with the statement in question: first, the claim of “adding about $8.0 billion of liquidity reserves” is inaccurate in terms of amount, since the annual report only supports $4.25 billion of actual new debt financing, while the $2.5 billion in cash and $5.3 billion in credit availability are year-end balances and cannot simply be summed as “added”; second, the source attribution of “through debt financing and available cash” is also incorrect, because the $5.3 billion credit availability was not completed debt financing, and part of the cash and financing raised had already been used for capital expenditures, dividends, and share repurchases, rather than retained as reserves. Therefore, the more accurate description is that Phillips 66 raised about $4.25 billion in debt financing in 2020 and ended the year with roughly $7.8 billion of accessible liquidity, rather than having “added about $8.0 billion of liquidity reserves.",
+            "subtype": "Numerical Fact Verify",
+            "evidence_pages": [
+                "PSX_10K_2020_38.jpg"
+            ]
+        },
+        {
+            "id": 154,
+            "question": "Both Citigroup and Capital One highlighted technology modernization and digital strategy as central priorities in their 2024 annual reports.",
+            "answer": "Supported",
+            "explanation": "Citigroup’s 2024 10-K emphasizes investments in technology and platform modernization as part of its transformation efforts, while Capital One’s 2024 10-K discusses acquisitions and strategies to strengthen digital platforms. Both highlight technology modernization and digital strategy as central priorities.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "C_10K_2024_7.jpg",
+                "COF_10K_2024_6.jpg"
+            ]
+        },
+        {
+            "id": 155,
+            "question": "Yum China Holdings, Inc. and Shake Shack Inc. both explicitly disclose using ISO 27001 standards as part of their cybersecurity risk management systems in their 2024 annual reports.",
+            "answer": "Refuted",
+            "explanation": "The statement claims that both Yum China Holdings, Inc. and Shake Shack Inc. disclosed using ISO 27001 standards in their 2024 annual reports. The evidence shows that Yum China explicitly stated it has maintained ISO/IEC 27001 certification since 2018, while Shake Shack only mentioned following the NIST Cybersecurity Framework and did not mention ISO 27001. Therefore, because only one of the two companies disclosed using ISO 27001, the statement is refuted.",
+            "subtype": "Textual Fact Verify",
+            "evidence_pages": [
+                "YUMC_10K_2024_62.jpg",
+                "SHAK_10K_2024_47.jpg",
+                "SHAK_10K_2024_48.jpg"
+            ]
+        }
+    ]
+}

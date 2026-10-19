@@ -1,0 +1,37 @@
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Downloaded models, document corpus, and generated experiment files
+models/
+FinMRAGAgent/data/
+auto_synthesis/data/
+auto_synthesis/industry_data/
+results/
+output/
+tmp/
+**/log/
+**/logs/
+*.log
+*.node
+*.jsonl
+
+# OS/editor files
+.DS_Store
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/
