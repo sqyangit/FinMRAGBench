@@ -7,7 +7,9 @@ from contextlib import redirect_stdout
 import ast
 import importlib.util
 import io
+from itertools import product
 import json
+from math import log2
 from pathlib import Path
 import sys
 import tempfile
@@ -16,6 +18,8 @@ import unittest
 from unittest.mock import Mock, patch
 
 from PIL import Image
+
+from FinMRAGAgent.utils.overall_evaluator import eval_search, eval_search2, ndcg_at_k
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -191,6 +195,100 @@ class EntryPointTests(unittest.TestCase):
         self.assertEqual(result['status'], 'error')
         self.assertEqual(result['history'], history)
         self.assertEqual(result['recall_results']['pages'], ['page.jpg'])
+
+    def test_saved_jsonl_scores_each_evidence_page_once(self):
+        with tempfile.TemporaryDirectory() as folder:
+            prediction = Path(folder) / 'predictions.jsonl'
+            row = {
+                'evidence_pages': ['page_a.png', 'page_b.png'],
+                'recall_results': {'source_nodes': [
+                    {'node': {'id_': 'first', 'metadata': {'file_name': 'pages/page_a.png'}}},
+                    {'node': {'id_': 'second', 'metadata': {'filename': 'chunks/page_a.png'}}},
+                    {'node': {'id_': 'third', 'metadata': {'file_name': 'pages/page_b.png'}}},
+                ]},
+            }
+            prediction.write_text(json.dumps(row) + '\n', encoding='utf-8')
+            model = self.entry.MMRAG.__new__(self.entry.MMRAG)
+            model.output_file_path = str(prediction)
+            model.eval_overall()
+            report = json.loads((Path(folder) / 'predictions_eval.json').read_text(encoding='utf-8'))
+
+        self.assertEqual(report['Recall@1'], 0.5)
+        self.assertEqual(report['nDCG@1'], 1.0)
+        expected = (1 + 1 / log2(4)) / (1 + 1 / log2(3))
+        for cutoff in (5, 10, 'all'):
+            self.assertEqual(report[f'Recall@{cutoff}'], 1.0)
+            self.assertEqual(report[f'Hit rate@{cutoff}'], 1.0)
+            self.assertEqual(report[f'MRR@{cutoff}'], 1.0)
+            self.assertAlmostEqual(report[f'nDCG@{cutoff}'], expected)
+
+
+class RetrievalMetricTests(unittest.TestCase):
+    def test_duplicate_page_gains_are_counted_once(self):
+        for repetitions in (2, 4):
+            for cutoff in (1, 5, 10, -1):
+                self.assertEqual(ndcg_at_k([['a']], [['a'] * repetitions], cutoff), 1.0)
+
+    def test_duplicate_slots_preserve_ranks_and_cutoffs(self):
+        relevant = [['a', 'b', 'c']]
+        retrieved = [['x', 'a', 'x', 'a', 'b', 'a', 'b', 'x', 'x', 'x', 'c']]
+
+        # Only ranks 2, 5 and 11 can earn gain. The ideal gains are at ranks 1, 2 and 3.
+        ideal = 1 + 1 / log2(3) + 1 / log2(4)
+        at_five = (1 / log2(3) + 1 / log2(6)) / ideal
+        at_all = at_five + 1 / log2(12) / ideal
+        for cutoff, expected in ((1, 0.0), (5, at_five), (10, at_five), (-1, at_all)):
+            self.assertAlmostEqual(ndcg_at_k(relevant, retrieved, cutoff), expected)
+        self.assertEqual(relevant, [['a', 'b', 'c']])
+        self.assertEqual(retrieved, [['x', 'a', 'x', 'a', 'b', 'a', 'b', 'x', 'x', 'x', 'c']])
+
+    def test_distinct_and_empty_rankings(self):
+        for cutoff in (1, 5, 10, -1):
+            self.assertEqual(ndcg_at_k([['a', 'b']], [['a', 'b']], cutoff), 1.0)
+            self.assertEqual(ndcg_at_k([['a']], [['x', 'x']], cutoff), 0.0)
+            self.assertEqual(ndcg_at_k([['a']], [[]], cutoff), 0.0)
+            self.assertEqual(ndcg_at_k([[]], [['x']], cutoff), 0.0)
+        self.assertEqual(eval_search([]), {})
+        self.assertEqual(eval_search2([]), {})
+
+    def test_binary_ndcg_is_bounded(self):
+        for ranking in product('abx', repeat=4):
+            for cutoff in (1, 5, 10, -1):
+                score = ndcg_at_k([['a', 'b']], [ranking], cutoff)
+                self.assertGreaterEqual(score, 0.0)
+                self.assertLessEqual(score, 1.0, (ranking, cutoff))
+
+    def test_legacy_retrieval_rows_project_to_page_ids(self):
+        row = {
+            'meta_info': {'file_name': 'report.pdf', 'reference_page': [1]},
+            'recall_results': [
+                {'metadata': {'file_path': 'pages/report_1.png'}},
+                {'metadata': {'file_path': 'chunks/report_1.png'}},
+            ],
+        }
+        report = eval_search([row])
+        self.assertEqual(report['nDCG@10'], 1.0)
+        self.assertEqual(report['nDCG@all'], 1.0)
+
+    def test_page_metrics_average_multiple_examples(self):
+        rows = [
+            {
+                'evidence_pages': ['a.png'],
+                'recall_results': [{'metadata': {'file_path': 'a.png'}}] * 2,
+            },
+            {
+                'evidence_pages': ['b.png'],
+                'recall_results': [
+                    {'metadata': {'file_path': 'x.png'}},
+                    {'metadata': {'file_path': 'b.png'}},
+                ],
+            },
+        ]
+        report = eval_search2(rows)
+        self.assertEqual(report['Recall@5'], 1.0)
+        self.assertEqual(report['Hit rate@5'], 1.0)
+        self.assertEqual(report['MRR@5'], 0.75)
+        self.assertAlmostEqual(report['nDCG@5'], (1 + 1 / log2(3)) / 2)
 
 
 class ModelRoutingTests(unittest.TestCase):
