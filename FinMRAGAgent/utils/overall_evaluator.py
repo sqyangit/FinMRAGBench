@@ -34,7 +34,11 @@ def ndcg_at_k(relevant_docs, retrieved_docs, k):
         current_k = len(ret) if k == -1 else k
         rel_set = set(rel)
         #  DCG@k
-        scores = [1 if doc in rel_set else 0 for doc in ret[:current_k]]
+        seen = set()
+        scores = []
+        for doc in ret[:current_k]:
+            scores.append(int(doc in rel_set and doc not in seen))
+            seen.add(doc)
         dcg_value = dcg(scores)
         #  IDCG@k
         ideal_scores = sorted([1] * len(rel_set) + [0] * (current_k - len(rel_set)), reverse=True)[:current_k]
